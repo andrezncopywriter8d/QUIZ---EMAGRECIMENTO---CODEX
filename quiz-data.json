@@ -31,7 +31,7 @@
         "subtitle": "",
         "description": "",
         "question": "",
-        "image": "assets/imageye___-_imgi_2_acc07d2e-2fbb-412f-a387-264048411f1b (1).webp",
+        "image": "assets/banana-bariatrica-intro.webp",
         "options": [],
         "button": {
           "text": "PEGAR MINHA RECEITA!",
@@ -50,7 +50,7 @@
             "id": "0b70db24-e6d0-4f80-af76-c178afbbaa84",
             "component": "image",
             "type": "image",
-            "src": "assets/imageye___-_imgi_2_acc07d2e-2fbb-412f-a387-264048411f1b (1).webp",
+            "src": "assets/banana-bariatrica-intro.webp",
             "size": "w-full"
           },
           {
