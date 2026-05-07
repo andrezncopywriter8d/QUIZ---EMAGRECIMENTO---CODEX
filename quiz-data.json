@@ -1,6 +1,6 @@
-{
+﻿{
   "quiz": {
-    "name": "Mounjaro Bariátrico",
+    "name": "Mounjaro BariÃ¡trico",
     "sourceUrl": "https://suareceitinha.receitinhaplenanatural.online/",
     "theme": {
       "primaryColor": "#16a34a",
@@ -9,7 +9,7 @@
       "textColor": "#020617",
       "mutedTextColor": "#020617",
       "fontFamily": "Poppins, Arial, sans-serif",
-      "logo": "assets/imageye___-_imgi_1_41cbfe6b-47c1-478f-83ec-f6cf38e33578.webp",
+      "logo": "assets/banana-bariatrica-logo.webp",
       "favicon": "assets/xquiz_a3ceff18-e959-488a-8bab-fb7900fab839.webp"
     },
     "settings": {
@@ -43,7 +43,7 @@
             "id": "2268894f-cf7e-4b11-9cbb-f00d9f02c739",
             "component": "headerV3",
             "type": "header",
-            "logo": "assets/xquiz_a0586b59-7efb-4924-90d3-7bef8234d225.webp",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 80
           },
           {
@@ -57,14 +57,14 @@
             "id": "4d8c8197-a558-47fc-963c-daab1d3d1148",
             "component": "textV2",
             "type": "text",
-            "text": "⚠️ESSA RECEITA SECRETA NÃO FUNCIONA IGUAL PARA TODO MUNDO, O SEGREDO ESTÁ EM PREPARAR DO JEITO CERTO!",
+            "text": "âš ï¸ESSA RECEITA SECRETA NÃƒO FUNCIONA IGUAL PARA TODO MUNDO, O SEGREDO ESTÃ EM PREPARAR DO JEITO CERTO!",
             "alignment": "center"
           },
           {
             "id": "ff743136-5c19-49b3-8019-f351096cb485",
             "component": "textV2",
             "type": "text",
-            "text": "FAÇA A AVALIAÇÃO DE 1 MINUTO E RECEBA A RECEITA PERSONALIZADA PARA SEU CORPO 👇🏻",
+            "text": "FAÃ‡A A AVALIAÃ‡ÃƒO DE 1 MINUTO E RECEBA A RECEITA PERSONALIZADA PARA SEU CORPO ðŸ‘‡ðŸ»",
             "alignment": "center"
           },
           {
@@ -89,42 +89,42 @@
         "options": [
           {
             "id": "6891dc0b-88fe-4547-a5b1-fea9c62a207f",
-            "label": "Perder peso 🧘‍♀️",
-            "emoji": "😊",
+            "label": "Perder peso ðŸ§˜â€â™€ï¸",
+            "emoji": "ðŸ˜Š",
             "image": "assets/xquiz_d7f4ab85-80de-4674-abc8-8e13370c2b86.webp",
-            "value": "Perder peso 🧘‍♀️",
+            "value": "Perder peso ðŸ§˜â€â™€ï¸",
             "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
           },
           {
             "id": "9021809a-3270-4214-bd9f-b838fe6d1caa",
-            "label": "Acelerar o metabolismo ⚡",
-            "emoji": "😁",
+            "label": "Acelerar o metabolismo âš¡",
+            "emoji": "ðŸ˜",
             "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-            "value": "Acelerar o metabolismo ⚡",
+            "value": "Acelerar o metabolismo âš¡",
             "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
           },
           {
             "id": "0c6d5233-c4bd-4a28-8d48-6c158e1bce0d",
-            "label": "Eliminar a retenção de líquidos 💧",
-            "emoji": "😁",
+            "label": "Eliminar a retenÃ§Ã£o de lÃ­quidos ðŸ’§",
+            "emoji": "ðŸ˜",
             "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-            "value": "Eliminar a retenção de líquidos 💧",
+            "value": "Eliminar a retenÃ§Ã£o de lÃ­quidos ðŸ’§",
             "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
           },
           {
             "id": "460424e6-76b1-4824-ab19-3b044c12fcff",
-            "label": "Queimar gordura no fígado 🔥",
-            "emoji": "😁",
+            "label": "Queimar gordura no fÃ­gado ðŸ”¥",
+            "emoji": "ðŸ˜",
             "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-            "value": "Queimar gordura no fígado 🔥",
+            "value": "Queimar gordura no fÃ­gado ðŸ”¥",
             "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
           },
           {
             "id": "fe0c9435-6da9-4142-9a0e-69b1d647b702",
-            "label": "Emagrecer na menopausa 🌸",
-            "emoji": "😁",
+            "label": "Emagrecer na menopausa ðŸŒ¸",
+            "emoji": "ðŸ˜",
             "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-            "value": "Emagrecer na menopausa 🌸",
+            "value": "Emagrecer na menopausa ðŸŒ¸",
             "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
           }
         ],
@@ -138,7 +138,7 @@
             "id": "18b8aab3-31f6-4ee5-90e6-cf022263a680",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -169,42 +169,42 @@
             "options": [
               {
                 "id": "6891dc0b-88fe-4547-a5b1-fea9c62a207f",
-                "label": "Perder peso 🧘‍♀️",
-                "emoji": "😊",
+                "label": "Perder peso ðŸ§˜â€â™€ï¸",
+                "emoji": "ðŸ˜Š",
                 "image": "assets/xquiz_d7f4ab85-80de-4674-abc8-8e13370c2b86.webp",
-                "value": "Perder peso 🧘‍♀️",
+                "value": "Perder peso ðŸ§˜â€â™€ï¸",
                 "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
               },
               {
                 "id": "9021809a-3270-4214-bd9f-b838fe6d1caa",
-                "label": "Acelerar o metabolismo ⚡",
-                "emoji": "😁",
+                "label": "Acelerar o metabolismo âš¡",
+                "emoji": "ðŸ˜",
                 "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-                "value": "Acelerar o metabolismo ⚡",
+                "value": "Acelerar o metabolismo âš¡",
                 "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
               },
               {
                 "id": "0c6d5233-c4bd-4a28-8d48-6c158e1bce0d",
-                "label": "Eliminar a retenção de líquidos 💧",
-                "emoji": "😁",
+                "label": "Eliminar a retenÃ§Ã£o de lÃ­quidos ðŸ’§",
+                "emoji": "ðŸ˜",
                 "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-                "value": "Eliminar a retenção de líquidos 💧",
+                "value": "Eliminar a retenÃ§Ã£o de lÃ­quidos ðŸ’§",
                 "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
               },
               {
                 "id": "460424e6-76b1-4824-ab19-3b044c12fcff",
-                "label": "Queimar gordura no fígado 🔥",
-                "emoji": "😁",
+                "label": "Queimar gordura no fÃ­gado ðŸ”¥",
+                "emoji": "ðŸ˜",
                 "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-                "value": "Queimar gordura no fígado 🔥",
+                "value": "Queimar gordura no fÃ­gado ðŸ”¥",
                 "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
               },
               {
                 "id": "fe0c9435-6da9-4142-9a0e-69b1d647b702",
-                "label": "Emagrecer na menopausa 🌸",
-                "emoji": "😁",
+                "label": "Emagrecer na menopausa ðŸŒ¸",
+                "emoji": "ðŸ˜",
                 "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
-                "value": "Emagrecer na menopausa 🌸",
+                "value": "Emagrecer na menopausa ðŸŒ¸",
                 "nextStep": "395740f4-8589-4765-bfe6-6097a24ee471"
               }
             ]
@@ -225,7 +225,7 @@
           {
             "id": "afb2cc7e-89c7-4cc1-adde-e966b027f9a5",
             "label": "MULHER",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_5a0f3162-30de-429c-b5a5-d71f77f4c180.webp",
             "value": "MULHER",
             "nextStep": "3cb36cd8-6368-4c84-bafe-99f2132fb552"
@@ -233,7 +233,7 @@
           {
             "id": "994fd9de-7637-43c1-a769-a189286f6733",
             "label": "HOMEM",
-            "emoji": "😊",
+            "emoji": "ðŸ˜Š",
             "image": "assets/imageye___-_imgi_3_489379f8-d8b4-4715-a454-71ef44f09238.webp",
             "value": "HOMEM",
             "nextStep": "3cb36cd8-6368-4c84-bafe-99f2132fb552"
@@ -249,7 +249,7 @@
             "id": "e6034606-2f9c-47c7-8109-56f5a3ccaa95",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -281,7 +281,7 @@
               {
                 "id": "afb2cc7e-89c7-4cc1-adde-e966b027f9a5",
                 "label": "MULHER",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_5a0f3162-30de-429c-b5a5-d71f77f4c180.webp",
                 "value": "MULHER",
                 "nextStep": "3cb36cd8-6368-4c84-bafe-99f2132fb552"
@@ -289,7 +289,7 @@
               {
                 "id": "994fd9de-7637-43c1-a769-a189286f6733",
                 "label": "HOMEM",
-                "emoji": "😊",
+                "emoji": "ðŸ˜Š",
                 "image": "assets/imageye___-_imgi_3_489379f8-d8b4-4715-a454-71ef44f09238.webp",
                 "value": "HOMEM",
                 "nextStep": "3cb36cd8-6368-4c84-bafe-99f2132fb552"
@@ -300,8 +300,8 @@
             "id": "f7c19316-05a3-4e0b-a4c2-0495b0f61127",
             "component": "note",
             "type": "note",
-            "title": "As informações são para fazer ajustes em seu plano exclusivo e personalizado.",
-            "text": "O sexo biológico é um fator que afeta a sua TMB (taxa metabólica), que determina quantas calorias você queima por dia."
+            "title": "As informaÃ§Ãµes sÃ£o para fazer ajustes em seu plano exclusivo e personalizado.",
+            "text": "O sexo biolÃ³gico Ã© um fator que afeta a sua TMB (taxa metabÃ³lica), que determina quantas calorias vocÃª queima por dia."
           }
         ]
       },
@@ -326,7 +326,7 @@
             "id": "8fdb20c5-46c8-4277-9dbf-97592c28c020",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -349,7 +349,7 @@
             "image": "assets/imageye___-_imgi_7_0w1ynIh.png",
             "markers": [
               "Costas",
-              "Braços",
+              "BraÃ§os",
               "Barriga",
               "Pochete",
               "Flanco",
@@ -372,16 +372,16 @@
         "slug": "4q653t6d",
         "type": "single_choice",
         "progress": 35,
-        "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+        "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro BariÃ¡trico, focado nas suas necessidades.",
         "subtitle": "Selecione sua idade abaixo:",
         "description": "",
-        "question": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+        "question": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro BariÃ¡trico, focado nas suas necessidades.",
         "image": "",
         "options": [
           {
             "id": "a914eba3-8241-4cf6-bf43-1a9a547ee150",
             "label": "18 a 26",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_9aa3619d-7445-4b67-a154-4c90bacb432f.webp",
             "value": "18 a 26",
             "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -389,7 +389,7 @@
           {
             "id": "982f3c50-a17d-4181-8afd-7905348e716a",
             "label": "27 a 38",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_3_6261af54-1254-4030-9e12-d4bd04affbe1.webp",
             "value": "27 a 38",
             "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -397,7 +397,7 @@
           {
             "id": "982046f0-eb23-4131-bc18-00064bdd48f4",
             "label": "39 a 50",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_4_df715b2f-cd43-4d74-9fc1-585500c53ed9.webp",
             "value": "39 a 50",
             "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -405,7 +405,7 @@
           {
             "id": "7c954ebb-db76-4ee0-939d-8fdd996fc5b1",
             "label": "46+",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_5_ba102c14-91cb-43fd-ac5c-f703c5e6d084.webp",
             "value": "46+",
             "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -421,7 +421,7 @@
             "id": "faff42a1-7020-401a-bf3f-ae0f424268f7",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -433,7 +433,7 @@
             "id": "9532041f-1002-446b-b220-7604087a8d8c",
             "component": "title",
             "type": "title",
-            "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+            "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro BariÃ¡trico, focado nas suas necessidades.",
             "subtitle": "Selecione sua idade abaixo:",
             "alignment": "center"
           },
@@ -453,7 +453,7 @@
               {
                 "id": "a914eba3-8241-4cf6-bf43-1a9a547ee150",
                 "label": "18 a 26",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_9aa3619d-7445-4b67-a154-4c90bacb432f.webp",
                 "value": "18 a 26",
                 "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -461,7 +461,7 @@
               {
                 "id": "982f3c50-a17d-4181-8afd-7905348e716a",
                 "label": "27 a 38",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_3_6261af54-1254-4030-9e12-d4bd04affbe1.webp",
                 "value": "27 a 38",
                 "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -469,7 +469,7 @@
               {
                 "id": "982046f0-eb23-4131-bc18-00064bdd48f4",
                 "label": "39 a 50",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_4_df715b2f-cd43-4d74-9fc1-585500c53ed9.webp",
                 "value": "39 a 50",
                 "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -477,7 +477,7 @@
               {
                 "id": "7c954ebb-db76-4ee0-939d-8fdd996fc5b1",
                 "label": "46+",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_5_ba102c14-91cb-43fd-ac5c-f703c5e6d084.webp",
                 "value": "46+",
                 "nextStep": "92649b99-5f86-4799-a8b7-286a4a62f88f"
@@ -492,7 +492,7 @@
         "type": "single_choice",
         "progress": 40,
         "title": "Quantos quilos deseja perder?",
-        "subtitle": "O Mounjaro Bariátrico pode eliminar gordura de forma acelerada.",
+        "subtitle": "O Mounjaro BariÃ¡trico pode eliminar gordura de forma acelerada.",
         "description": "",
         "question": "Quantos quilos deseja perder?",
         "image": "",
@@ -500,7 +500,7 @@
           {
             "id": "87030c8b-0e7d-45ac-9f45-fa194599ffb7",
             "label": "5KG A 10KG",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
             "value": "5KG A 10KG",
             "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
@@ -508,7 +508,7 @@
           {
             "id": "1ccb806c-2c5f-47d1-969e-a3a5c7c72add",
             "label": "15KG A 20KG",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
             "value": "15KG A 20KG",
             "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
@@ -516,17 +516,17 @@
           {
             "id": "3c46e934-7258-4c02-992b-fb3692b52a86",
             "label": "MAIS DE 20KG",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
             "value": "MAIS DE 20KG",
             "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
           },
           {
             "id": "c87df5cf-90f0-46bf-ab09-97521ac570e9",
-            "label": "Não tenho uma meta exata",
-            "emoji": "😁",
+            "label": "NÃ£o tenho uma meta exata",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_3_921e8d7e-37ab-4bbf-8124-06cb93b0e31f.webp",
-            "value": "Não tenho uma meta exata",
+            "value": "NÃ£o tenho uma meta exata",
             "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
           }
         ],
@@ -540,7 +540,7 @@
             "id": "83da1ea1-6883-4964-9d55-ec364f3b885c",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -553,7 +553,7 @@
             "component": "title",
             "type": "title",
             "title": "Quantos quilos deseja perder?",
-            "subtitle": "O Mounjaro Bariátrico pode eliminar gordura de forma acelerada.",
+            "subtitle": "O Mounjaro BariÃ¡trico pode eliminar gordura de forma acelerada.",
             "alignment": "center"
           },
           {
@@ -572,7 +572,7 @@
               {
                 "id": "87030c8b-0e7d-45ac-9f45-fa194599ffb7",
                 "label": "5KG A 10KG",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
                 "value": "5KG A 10KG",
                 "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
@@ -580,7 +580,7 @@
               {
                 "id": "1ccb806c-2c5f-47d1-969e-a3a5c7c72add",
                 "label": "15KG A 20KG",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
                 "value": "15KG A 20KG",
                 "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
@@ -588,17 +588,17 @@
               {
                 "id": "3c46e934-7258-4c02-992b-fb3692b52a86",
                 "label": "MAIS DE 20KG",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_c876591d-332a-4a56-bb90-bbefbdbce907.webp",
                 "value": "MAIS DE 20KG",
                 "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
               },
               {
                 "id": "c87df5cf-90f0-46bf-ab09-97521ac570e9",
-                "label": "Não tenho uma meta exata",
-                "emoji": "😁",
+                "label": "NÃ£o tenho uma meta exata",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_3_921e8d7e-37ab-4bbf-8124-06cb93b0e31f.webp",
-                "value": "Não tenho uma meta exata",
+                "value": "NÃ£o tenho uma meta exata",
                 "nextStep": "045ddb2f-4d7c-46b1-9a64-f2d7a6d65b2c"
               }
             ]
@@ -610,10 +610,10 @@
         "slug": "0s0v1f3a",
         "type": "content",
         "progress": 42,
-        "title": "Veja o resultado desse Mounjaro Bariátrico na vida da Sandra",
-        "subtitle": "Com dificuldades para emagrecer e muita ansiedade, Sandra incluiu o Mounjaro em sua rotina noturna... E em apenas três semanas, perdeu 9 kg, melhorando sua autoestima e sua vida.",
+        "title": "Veja o resultado desse Mounjaro BariÃ¡trico na vida da Sandra",
+        "subtitle": "Com dificuldades para emagrecer e muita ansiedade, Sandra incluiu o Mounjaro em sua rotina noturna... E em apenas trÃªs semanas, perdeu 9 kg, melhorando sua autoestima e sua vida.",
         "description": "",
-        "question": "Veja o resultado desse Mounjaro Bariátrico na vida da Sandra",
+        "question": "Veja o resultado desse Mounjaro BariÃ¡trico na vida da Sandra",
         "image": "assets/imageye___-_imgi_2_e8cd514b-cf0c-4637-86cd-00e266d24263.webp",
         "options": [],
         "button": {
@@ -626,7 +626,7 @@
             "id": "2902e89f-9510-4a10-a38a-c222bfb83f54",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -638,8 +638,8 @@
             "id": "aac552ea-5b69-4697-9a42-c26ed9d1c8a0",
             "component": "title",
             "type": "title",
-            "title": "Veja o resultado desse Mounjaro Bariátrico na vida da Sandra",
-            "subtitle": "Com dificuldades para emagrecer e muita ansiedade, Sandra incluiu o Mounjaro em sua rotina noturna... E em apenas três semanas, perdeu 9 kg, melhorando sua autoestima e sua vida.",
+            "title": "Veja o resultado desse Mounjaro BariÃ¡trico na vida da Sandra",
+            "subtitle": "Com dificuldades para emagrecer e muita ansiedade, Sandra incluiu o Mounjaro em sua rotina noturna... E em apenas trÃªs semanas, perdeu 9 kg, melhorando sua autoestima e sua vida.",
             "alignment": "center"
           },
           {
@@ -663,10 +663,10 @@
         "slug": "5o2e5402",
         "type": "form",
         "progress": 18,
-        "title": "Vamos lá! Como posso te chamar?",
+        "title": "Vamos lÃ¡! Como posso te chamar?",
         "subtitle": "",
         "description": "",
-        "question": "Vamos lá! Como posso te chamar?",
+        "question": "Vamos lÃ¡! Como posso te chamar?",
         "image": "",
         "options": [],
         "button": {
@@ -679,14 +679,14 @@
             "id": "9c76e70f-35a6-441b-a7c7-fb26145a0279",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "c4c9011e-63b0-4d51-8b65-c8fa7dd3a2c8",
             "component": "title",
             "type": "title",
-            "title": "Vamos lá! Como posso te chamar?",
+            "title": "Vamos lÃ¡! Como posso te chamar?",
             "subtitle": "",
             "alignment": "center"
           },
@@ -721,7 +721,7 @@
           {
             "id": "4a937e50-c010-4e17-b5f9-22e630027c76",
             "label": "Barriga Falsa",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_2_292e1b47-2c98-46c3-af3f-27b19d6374af.webp",
             "value": "Barriga Falsa",
             "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
@@ -729,23 +729,23 @@
           {
             "id": "91eb80ba-9c01-450b-a1d5-dc2f8f8ccb58",
             "label": "Regular",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_3_109dfde2-09ad-41c4-ae47-617fe746f5ae.webp",
             "value": "Regular",
             "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
           },
           {
             "id": "f80e094a-cdff-491e-8841-df98dc17fe7e",
-            "label": "Flácido",
-            "emoji": "😁",
+            "label": "FlÃ¡cido",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_4_bd3fc090-687c-4727-8e2a-735b0fc7d48f.webp",
-            "value": "Flácido",
+            "value": "FlÃ¡cido",
             "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
           },
           {
             "id": "fe0b36df-f515-42dd-b624-29b5980e8182",
             "label": "Sobrepeso",
-            "emoji": "😁",
+            "emoji": "ðŸ˜",
             "image": "assets/imageye___-_imgi_5_e689202e-0051-4dad-9409-9b1d19d3c2e1.webp",
             "value": "Sobrepeso",
             "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
@@ -761,7 +761,7 @@
             "id": "277e7043-c34f-4620-bf14-abc259c15137",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -793,7 +793,7 @@
               {
                 "id": "4a937e50-c010-4e17-b5f9-22e630027c76",
                 "label": "Barriga Falsa",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_2_292e1b47-2c98-46c3-af3f-27b19d6374af.webp",
                 "value": "Barriga Falsa",
                 "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
@@ -801,23 +801,23 @@
               {
                 "id": "91eb80ba-9c01-450b-a1d5-dc2f8f8ccb58",
                 "label": "Regular",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_3_109dfde2-09ad-41c4-ae47-617fe746f5ae.webp",
                 "value": "Regular",
                 "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
               },
               {
                 "id": "f80e094a-cdff-491e-8841-df98dc17fe7e",
-                "label": "Flácido",
-                "emoji": "😁",
+                "label": "FlÃ¡cido",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_4_bd3fc090-687c-4727-8e2a-735b0fc7d48f.webp",
-                "value": "Flácido",
+                "value": "FlÃ¡cido",
                 "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
               },
               {
                 "id": "fe0b36df-f515-42dd-b624-29b5980e8182",
                 "label": "Sobrepeso",
-                "emoji": "😁",
+                "emoji": "ðŸ˜",
                 "image": "assets/imageye___-_imgi_5_e689202e-0051-4dad-9409-9b1d19d3c2e1.webp",
                 "value": "Sobrepeso",
                 "nextStep": "9c42c654-7b99-4801-93c7-b5bc287f0176"
@@ -832,7 +832,7 @@
         "type": "single_choice",
         "progress": 50,
         "title": "{{nome}} como o seu peso afeta sua vida?",
-        "subtitle": "Ignorar como seu peso afeta suas relações pode prejudicar sua qualidade de vida e bem-estar emocional.",
+        "subtitle": "Ignorar como seu peso afeta suas relaÃ§Ãµes pode prejudicar sua qualidade de vida e bem-estar emocional.",
         "description": "",
         "question": "{{nome}} como o seu peso afeta sua vida?",
         "image": "",
@@ -840,41 +840,41 @@
           {
             "id": "f5a0a802-68ef-40a9-84d9-332b40c7d589",
             "label": "Tenho vergonha de tirar fotos",
-            "emoji": "🤦",
+            "emoji": "ðŸ¤¦",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Tenho vergonha de tirar fotos",
             "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
           },
           {
             "id": "d048362c-d226-499e-a32d-975c70eb548b",
-            "label": "Meu parceiro está preocupado com minha saúde",
-            "emoji": "😞",
+            "label": "Meu parceiro estÃ¡ preocupado com minha saÃºde",
+            "emoji": "ðŸ˜ž",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-            "value": "Meu parceiro está preocupado com minha saúde",
+            "value": "Meu parceiro estÃ¡ preocupado com minha saÃºde",
             "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
           },
           {
             "id": "f3a7f4a7-29a2-4dfb-b235-59d62e54f461",
             "label": "Sinto-me julgado por amigos e colegas",
-            "emoji": "😢",
+            "emoji": "ðŸ˜¢",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Sinto-me julgado por amigos e colegas",
             "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
           },
           {
             "id": "d228645d-e6f6-4320-9584-9ae6bed50e71",
-            "label": "Evito encontros românticos por não me sentir atraente",
-            "emoji": "💔",
+            "label": "Evito encontros romÃ¢nticos por nÃ£o me sentir atraente",
+            "emoji": "ðŸ’”",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Evito encontros românticos por não me sentir atraente",
+            "value": "Evito encontros romÃ¢nticos por nÃ£o me sentir atraente",
             "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
           },
           {
             "id": "89bb1d20-e920-4a16-8300-0db0775ab689",
-            "label": "Nenhuma das opções",
-            "emoji": "👋",
+            "label": "Nenhuma das opÃ§Ãµes",
+            "emoji": "ðŸ‘‹",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Nenhuma das opções",
+            "value": "Nenhuma das opÃ§Ãµes",
             "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
           }
         ],
@@ -888,7 +888,7 @@
             "id": "6d2ad5ab-523d-42ac-af27-da688b0cfb64",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -901,7 +901,7 @@
             "component": "title",
             "type": "title",
             "title": "{{nome}} como o seu peso afeta sua vida?",
-            "subtitle": "Ignorar como seu peso afeta suas relações pode prejudicar sua qualidade de vida e bem-estar emocional.",
+            "subtitle": "Ignorar como seu peso afeta suas relaÃ§Ãµes pode prejudicar sua qualidade de vida e bem-estar emocional.",
             "alignment": "center"
           },
           {
@@ -920,41 +920,41 @@
               {
                 "id": "f5a0a802-68ef-40a9-84d9-332b40c7d589",
                 "label": "Tenho vergonha de tirar fotos",
-                "emoji": "🤦",
+                "emoji": "ðŸ¤¦",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Tenho vergonha de tirar fotos",
                 "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
               },
               {
                 "id": "d048362c-d226-499e-a32d-975c70eb548b",
-                "label": "Meu parceiro está preocupado com minha saúde",
-                "emoji": "😞",
+                "label": "Meu parceiro estÃ¡ preocupado com minha saÃºde",
+                "emoji": "ðŸ˜ž",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-                "value": "Meu parceiro está preocupado com minha saúde",
+                "value": "Meu parceiro estÃ¡ preocupado com minha saÃºde",
                 "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
               },
               {
                 "id": "f3a7f4a7-29a2-4dfb-b235-59d62e54f461",
                 "label": "Sinto-me julgado por amigos e colegas",
-                "emoji": "😢",
+                "emoji": "ðŸ˜¢",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Sinto-me julgado por amigos e colegas",
                 "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
               },
               {
                 "id": "d228645d-e6f6-4320-9584-9ae6bed50e71",
-                "label": "Evito encontros românticos por não me sentir atraente",
-                "emoji": "💔",
+                "label": "Evito encontros romÃ¢nticos por nÃ£o me sentir atraente",
+                "emoji": "ðŸ’”",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Evito encontros românticos por não me sentir atraente",
+                "value": "Evito encontros romÃ¢nticos por nÃ£o me sentir atraente",
                 "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
               },
               {
                 "id": "89bb1d20-e920-4a16-8300-0db0775ab689",
-                "label": "Nenhuma das opções",
-                "emoji": "👋",
+                "label": "Nenhuma das opÃ§Ãµes",
+                "emoji": "ðŸ‘‹",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Nenhuma das opções",
+                "value": "Nenhuma das opÃ§Ãµes",
                 "nextStep": "5a5baf85-5e3d-4b6c-9ec9-3e955563883d"
               }
             ]
@@ -966,42 +966,42 @@
         "slug": "612s444y",
         "type": "single_choice",
         "progress": 55,
-        "title": "Você se sente satisfeita com a sua aparência física atual?",
+        "title": "VocÃª se sente satisfeita com a sua aparÃªncia fÃ­sica atual?",
         "subtitle": "",
         "description": "",
-        "question": "Você se sente satisfeita com a sua aparência física atual?",
+        "question": "VocÃª se sente satisfeita com a sua aparÃªncia fÃ­sica atual?",
         "image": "",
         "options": [
           {
             "id": "c408720b-fed8-4644-a688-953969a7bac3",
-            "label": "Não, porque me sinto acima do peso e isso afeta minha autoestima",
-            "emoji": "😢",
+            "label": "NÃ£o, porque me sinto acima do peso e isso afeta minha autoestima",
+            "emoji": "ðŸ˜¢",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
-            "value": "Não, porque me sinto acima do peso e isso afeta minha autoestima",
+            "value": "NÃ£o, porque me sinto acima do peso e isso afeta minha autoestima",
             "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
           },
           {
             "id": "544bef9a-882f-4101-9631-97558f2c0b57",
-            "label": "Sim, mas sei que posso melhorar minha saúde",
-            "emoji": "😞",
+            "label": "Sim, mas sei que posso melhorar minha saÃºde",
+            "emoji": "ðŸ˜ž",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-            "value": "Sim, mas sei que posso melhorar minha saúde",
+            "value": "Sim, mas sei que posso melhorar minha saÃºde",
             "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
           },
           {
             "id": "4418dbdf-5d76-498b-8ee7-fe7aaac61691",
-            "label": "Não, gostaria de perder peso para melhorar meu bem-estar",
-            "emoji": "😪",
+            "label": "NÃ£o, gostaria de perder peso para melhorar meu bem-estar",
+            "emoji": "ðŸ˜ª",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Não, gostaria de perder peso para melhorar meu bem-estar",
+            "value": "NÃ£o, gostaria de perder peso para melhorar meu bem-estar",
             "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
           },
           {
             "id": "46bd583a-b724-4e0a-932f-38364d0406ea",
-            "label": "Não, minha aparência física não corresponde aos meus objetivos de saúde",
-            "emoji": "🤦",
+            "label": "NÃ£o, minha aparÃªncia fÃ­sica nÃ£o corresponde aos meus objetivos de saÃºde",
+            "emoji": "ðŸ¤¦",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Não, minha aparência física não corresponde aos meus objetivos de saúde",
+            "value": "NÃ£o, minha aparÃªncia fÃ­sica nÃ£o corresponde aos meus objetivos de saÃºde",
             "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
           }
         ],
@@ -1015,7 +1015,7 @@
             "id": "e8397288-245d-4b04-adb7-f3e504f257f3",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1027,7 +1027,7 @@
             "id": "2fa27dcb-3b69-40e5-862a-be04c92c6a4c",
             "component": "title",
             "type": "title",
-            "title": "Você se sente satisfeita com a sua aparência física atual?",
+            "title": "VocÃª se sente satisfeita com a sua aparÃªncia fÃ­sica atual?",
             "subtitle": "",
             "alignment": "center"
           },
@@ -1046,34 +1046,34 @@
             "options": [
               {
                 "id": "c408720b-fed8-4644-a688-953969a7bac3",
-                "label": "Não, porque me sinto acima do peso e isso afeta minha autoestima",
-                "emoji": "😢",
+                "label": "NÃ£o, porque me sinto acima do peso e isso afeta minha autoestima",
+                "emoji": "ðŸ˜¢",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
-                "value": "Não, porque me sinto acima do peso e isso afeta minha autoestima",
+                "value": "NÃ£o, porque me sinto acima do peso e isso afeta minha autoestima",
                 "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
               },
               {
                 "id": "544bef9a-882f-4101-9631-97558f2c0b57",
-                "label": "Sim, mas sei que posso melhorar minha saúde",
-                "emoji": "😞",
+                "label": "Sim, mas sei que posso melhorar minha saÃºde",
+                "emoji": "ðŸ˜ž",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-                "value": "Sim, mas sei que posso melhorar minha saúde",
+                "value": "Sim, mas sei que posso melhorar minha saÃºde",
                 "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
               },
               {
                 "id": "4418dbdf-5d76-498b-8ee7-fe7aaac61691",
-                "label": "Não, gostaria de perder peso para melhorar meu bem-estar",
-                "emoji": "😪",
+                "label": "NÃ£o, gostaria de perder peso para melhorar meu bem-estar",
+                "emoji": "ðŸ˜ª",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Não, gostaria de perder peso para melhorar meu bem-estar",
+                "value": "NÃ£o, gostaria de perder peso para melhorar meu bem-estar",
                 "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
               },
               {
                 "id": "46bd583a-b724-4e0a-932f-38364d0406ea",
-                "label": "Não, minha aparência física não corresponde aos meus objetivos de saúde",
-                "emoji": "🤦",
+                "label": "NÃ£o, minha aparÃªncia fÃ­sica nÃ£o corresponde aos meus objetivos de saÃºde",
+                "emoji": "ðŸ¤¦",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Não, minha aparência física não corresponde aos meus objetivos de saúde",
+                "value": "NÃ£o, minha aparÃªncia fÃ­sica nÃ£o corresponde aos meus objetivos de saÃºde",
                 "nextStep": "c9fc0f30-5159-4826-a7a5-4c0519ff0a35"
               }
             ]
@@ -1085,16 +1085,16 @@
         "slug": "6y2b4r5m",
         "type": "single_choice",
         "progress": 63,
-        "title": "Você enfrenta alguma dificuldade no dia a dia devido ao peso?",
+        "title": "VocÃª enfrenta alguma dificuldade no dia a dia devido ao peso?",
         "subtitle": "Selecione abaixo",
         "description": "",
-        "question": "Você enfrenta alguma dificuldade no dia a dia devido ao peso?",
+        "question": "VocÃª enfrenta alguma dificuldade no dia a dia devido ao peso?",
         "image": "",
         "options": [
           {
             "id": "d4e468b9-67d8-4618-be5e-83f8241a5f25",
             "label": "Subir as escadas",
-            "emoji": "🤦",
+            "emoji": "ðŸ¤¦",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Subir as escadas",
             "nextStep": ""
@@ -1102,7 +1102,7 @@
           {
             "id": "8192a0de-54b7-446c-9a10-cc283e80464b",
             "label": "Se sentar",
-            "emoji": "🪑",
+            "emoji": "ðŸª‘",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
             "value": "Se sentar",
             "nextStep": ""
@@ -1110,7 +1110,7 @@
           {
             "id": "27376cfc-6e8f-45a4-9b79-138099226fbb",
             "label": "Agachar",
-            "emoji": "🦵",
+            "emoji": "ðŸ¦µ",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Agachar",
             "nextStep": ""
@@ -1118,7 +1118,7 @@
           {
             "id": "e6a82eeb-8f61-4586-8d23-c4439e765635",
             "label": "Deitar na cama",
-            "emoji": "🛏️",
+            "emoji": "ðŸ›ï¸",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Deitar na cama",
             "nextStep": ""
@@ -1126,17 +1126,17 @@
           {
             "id": "daf908ea-bcdb-4448-9176-c724bc38728b",
             "label": "Outros",
-            "emoji": "😶",
+            "emoji": "ðŸ˜¶",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Outros",
             "nextStep": ""
           },
           {
             "id": "30375def-2316-40cb-b5e8-1822974d96df",
-            "label": "Não tenho dificuldades",
-            "emoji": "✅",
+            "label": "NÃ£o tenho dificuldades",
+            "emoji": "âœ…",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Não tenho dificuldades",
+            "value": "NÃ£o tenho dificuldades",
             "nextStep": ""
           }
         ],
@@ -1150,7 +1150,7 @@
             "id": "db0ef6a3-61d2-44fe-9d2b-c7d771b14867",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1162,7 +1162,7 @@
             "id": "301f1a3b-472a-43cc-ab5b-dedc9efa96e6",
             "component": "title",
             "type": "title",
-            "title": "Você enfrenta alguma dificuldade no dia a dia devido ao peso?",
+            "title": "VocÃª enfrenta alguma dificuldade no dia a dia devido ao peso?",
             "subtitle": "Selecione abaixo",
             "alignment": "center"
           },
@@ -1182,7 +1182,7 @@
               {
                 "id": "d4e468b9-67d8-4618-be5e-83f8241a5f25",
                 "label": "Subir as escadas",
-                "emoji": "🤦",
+                "emoji": "ðŸ¤¦",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Subir as escadas",
                 "nextStep": ""
@@ -1190,7 +1190,7 @@
               {
                 "id": "8192a0de-54b7-446c-9a10-cc283e80464b",
                 "label": "Se sentar",
-                "emoji": "🪑",
+                "emoji": "ðŸª‘",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
                 "value": "Se sentar",
                 "nextStep": ""
@@ -1198,7 +1198,7 @@
               {
                 "id": "27376cfc-6e8f-45a4-9b79-138099226fbb",
                 "label": "Agachar",
-                "emoji": "🦵",
+                "emoji": "ðŸ¦µ",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Agachar",
                 "nextStep": ""
@@ -1206,7 +1206,7 @@
               {
                 "id": "e6a82eeb-8f61-4586-8d23-c4439e765635",
                 "label": "Deitar na cama",
-                "emoji": "🛏️",
+                "emoji": "ðŸ›ï¸",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Deitar na cama",
                 "nextStep": ""
@@ -1214,17 +1214,17 @@
               {
                 "id": "daf908ea-bcdb-4448-9176-c724bc38728b",
                 "label": "Outros",
-                "emoji": "😶",
+                "emoji": "ðŸ˜¶",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Outros",
                 "nextStep": ""
               },
               {
                 "id": "30375def-2316-40cb-b5e8-1822974d96df",
-                "label": "Não tenho dificuldades",
-                "emoji": "✅",
+                "label": "NÃ£o tenho dificuldades",
+                "emoji": "âœ…",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Não tenho dificuldades",
+                "value": "NÃ£o tenho dificuldades",
                 "nextStep": ""
               }
             ]
@@ -1243,14 +1243,14 @@
         "slug": "095h1g2n",
         "type": "testimonial",
         "progress": 96,
-        "title": "Suas respostas são parecidas com as delas...",
-        "subtitle": "Isso significa que você também pode se beneficiar do nosso Mounjaro Bariátrico , assim como milhares de mulheres que já transformaram suas vidas.",
+        "title": "Suas respostas sÃ£o parecidas com as delas...",
+        "subtitle": "Isso significa que vocÃª tambÃ©m pode se beneficiar do nosso Mounjaro BariÃ¡trico , assim como milhares de mulheres que jÃ¡ transformaram suas vidas.",
         "description": "",
-        "question": "Suas respostas são parecidas com as delas...",
+        "question": "Suas respostas sÃ£o parecidas com as delas...",
         "image": "",
         "options": [],
         "button": {
-          "text": "Também Quero Essa Transformação!",
+          "text": "TambÃ©m Quero Essa TransformaÃ§Ã£o!",
           "visible": true
         },
         "nextStep": "80920976-fc26-4fc5-ad7e-1fd6b0116fca",
@@ -1259,7 +1259,7 @@
             "id": "0c27a35f-09c6-426e-844b-052c9b9cf10f",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1271,8 +1271,8 @@
             "id": "7ceba0aa-4baf-4f97-90bc-57bb5d6e0150",
             "component": "title",
             "type": "title",
-            "title": "Suas respostas são parecidas com as delas...",
-            "subtitle": "Isso significa que você também pode se beneficiar do nosso Mounjaro Bariátrico , assim como milhares de mulheres que já transformaram suas vidas.",
+            "title": "Suas respostas sÃ£o parecidas com as delas...",
+            "subtitle": "Isso significa que vocÃª tambÃ©m pode se beneficiar do nosso Mounjaro BariÃ¡trico , assim como milhares de mulheres que jÃ¡ transformaram suas vidas.",
             "alignment": "center"
           },
           {
@@ -1306,7 +1306,7 @@
             "id": "637d5335-2ea0-4ff6-840d-450af941569b",
             "component": "button",
             "type": "button",
-            "text": "Também Quero Essa Transformação!",
+            "text": "TambÃ©m Quero Essa TransformaÃ§Ã£o!",
             "animation": "fade-in"
           }
         ]
@@ -1332,7 +1332,7 @@
             "id": "b6fdd14a-d0d1-46f0-8eaa-7f53bbd2c0e8",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1344,7 +1344,7 @@
             "id": "1523e77b-a96f-468e-b500-71e41fa92c7d",
             "component": "text",
             "type": "text",
-            "text": "{{nome}} Veja abaixo o vídeo da nossa Nutri Amanda e entenda como tudo vai funcionar 👇🏻",
+            "text": "{{nome}} Veja abaixo o vÃ­deo da nossa Nutri Amanda e entenda como tudo vai funcionar ðŸ‘‡ðŸ»",
             "alignment": "center"
           },
           {
@@ -1369,7 +1369,7 @@
         "type": "single_choice",
         "progress": 70,
         "title": "O que te impede de emagrecer?",
-        "subtitle": "Já pensou nisso?",
+        "subtitle": "JÃ¡ pensou nisso?",
         "description": "",
         "question": "O que te impede de emagrecer?",
         "image": "",
@@ -1377,7 +1377,7 @@
           {
             "id": "1950b480-56b4-4c82-84e7-1ca2b20cf914",
             "label": "Falta de tempo",
-            "emoji": "⏰",
+            "emoji": "â°",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Falta de tempo",
             "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1385,7 +1385,7 @@
           {
             "id": "5266ad3e-148a-4cfb-b112-e29d21123d42",
             "label": "Autocontrole",
-            "emoji": "😬",
+            "emoji": "ðŸ˜¬",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
             "value": "Autocontrole",
             "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1393,7 +1393,7 @@
           {
             "id": "d2ea4d3f-547a-4d3e-bc11-ee6ff7f490b5",
             "label": "Financeiro",
-            "emoji": "💸",
+            "emoji": "ðŸ’¸",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Financeiro",
             "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1409,7 +1409,7 @@
             "id": "58f67a67-1f65-44cd-b497-bed0ae814021",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1422,7 +1422,7 @@
             "component": "title",
             "type": "title",
             "title": "O que te impede de emagrecer?",
-            "subtitle": "Já pensou nisso?",
+            "subtitle": "JÃ¡ pensou nisso?",
             "alignment": "center"
           },
           {
@@ -1441,7 +1441,7 @@
               {
                 "id": "1950b480-56b4-4c82-84e7-1ca2b20cf914",
                 "label": "Falta de tempo",
-                "emoji": "⏰",
+                "emoji": "â°",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Falta de tempo",
                 "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1449,7 +1449,7 @@
               {
                 "id": "5266ad3e-148a-4cfb-b112-e29d21123d42",
                 "label": "Autocontrole",
-                "emoji": "😬",
+                "emoji": "ðŸ˜¬",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
                 "value": "Autocontrole",
                 "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1457,7 +1457,7 @@
               {
                 "id": "d2ea4d3f-547a-4d3e-bc11-ee6ff7f490b5",
                 "label": "Financeiro",
-                "emoji": "💸",
+                "emoji": "ðŸ’¸",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Financeiro",
                 "nextStep": "47febc88-02a2-4200-8052-92535fb420b9"
@@ -1472,7 +1472,7 @@
         "type": "content",
         "progress": 73,
         "title": "Te entendemos!",
-        "subtitle": "O Mounjaro Bariátrico age enquanto você dorme, queimando gordura de forma acelerada!",
+        "subtitle": "O Mounjaro BariÃ¡trico age enquanto vocÃª dorme, queimando gordura de forma acelerada!",
         "description": "",
         "question": "Te entendemos!",
         "image": "assets/imageye___-_imgi_2_bc100f87-9306-45b3-81ea-cef7957df0f3.webp",
@@ -1487,7 +1487,7 @@
             "id": "6851c357-0ce3-4fee-a058-4f956951a496",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1500,7 +1500,7 @@
             "component": "title",
             "type": "title",
             "title": "Te entendemos!",
-            "subtitle": "O Mounjaro Bariátrico age enquanto você dorme, queimando gordura de forma acelerada!",
+            "subtitle": "O Mounjaro BariÃ¡trico age enquanto vocÃª dorme, queimando gordura de forma acelerada!",
             "alignment": "center"
           },
           {
@@ -1524,74 +1524,74 @@
         "slug": "0w3h0r59",
         "type": "single_choice",
         "progress": 75,
-        "title": "{{nome}} quais desses benefícios gostaria de ter?",
+        "title": "{{nome}} quais desses benefÃ­cios gostaria de ter?",
         "subtitle": "Vamos acrescentar ingredientes que ira ajudar na sua escolha.",
         "description": "",
-        "question": "{{nome}} quais desses benefícios gostaria de ter?",
+        "question": "{{nome}} quais desses benefÃ­cios gostaria de ter?",
         "image": "",
         "options": [
           {
             "id": "89aeb925-7c3c-44e9-8bd1-295f038c3aec",
             "label": "Dormir melhor",
-            "emoji": "🤦",
+            "emoji": "ðŸ¤¦",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Dormir melhor",
             "nextStep": ""
           },
           {
             "id": "4133ba12-a742-4655-b6f5-2494d2c559e8",
-            "label": "Menos dores e inflamações",
-            "emoji": "🪑",
+            "label": "Menos dores e inflamaÃ§Ãµes",
+            "emoji": "ðŸª‘",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-            "value": "Menos dores e inflamações",
+            "value": "Menos dores e inflamaÃ§Ãµes",
             "nextStep": ""
           },
           {
             "id": "13c7ad57-e85b-427c-a6c2-31931a70e9fd",
-            "label": "Mais energia e disposição ao longo do dia",
-            "emoji": "🦵",
+            "label": "Mais energia e disposiÃ§Ã£o ao longo do dia",
+            "emoji": "ðŸ¦µ",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Mais energia e disposição ao longo do dia",
+            "value": "Mais energia e disposiÃ§Ã£o ao longo do dia",
             "nextStep": ""
           },
           {
             "id": "c3c3c526-2d2f-4272-82a8-5d855a85fe26",
-            "label": "Redução do estresse e ansiedade",
-            "emoji": "🛏️",
+            "label": "ReduÃ§Ã£o do estresse e ansiedade",
+            "emoji": "ðŸ›ï¸",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Redução do estresse e ansiedade",
+            "value": "ReduÃ§Ã£o do estresse e ansiedade",
             "nextStep": ""
           },
           {
             "id": "d36bfade-b428-466c-8353-ffde54f3f93b",
-            "label": "Aumento da autoestima e confiança",
-            "emoji": "😶",
+            "label": "Aumento da autoestima e confianÃ§a",
+            "emoji": "ðŸ˜¶",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Aumento da autoestima e confiança",
+            "value": "Aumento da autoestima e confianÃ§a",
             "nextStep": ""
           },
           {
             "id": "e240a75a-c3c4-472d-b864-3149ee664a40",
-            "label": "Proteção contra doenças metabólicas",
-            "emoji": "✅",
+            "label": "ProteÃ§Ã£o contra doenÃ§as metabÃ³licas",
+            "emoji": "âœ…",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Proteção contra doenças metabólicas",
+            "value": "ProteÃ§Ã£o contra doenÃ§as metabÃ³licas",
             "nextStep": ""
           },
           {
             "id": "dc885973-72ac-490e-9e83-a9687905c4e3",
-            "label": "Mais facilidade em realizar atividades físicas",
-            "emoji": "✅",
+            "label": "Mais facilidade em realizar atividades fÃ­sicas",
+            "emoji": "âœ…",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Mais facilidade em realizar atividades físicas",
+            "value": "Mais facilidade em realizar atividades fÃ­sicas",
             "nextStep": ""
           },
           {
             "id": "a3f0a0c9-4e44-49c7-a850-14e204cbd189",
-            "label": "Emagrecer sem esforço e sem efeito sanfona",
-            "emoji": "✅",
+            "label": "Emagrecer sem esforÃ§o e sem efeito sanfona",
+            "emoji": "âœ…",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Emagrecer sem esforço e sem efeito sanfona",
+            "value": "Emagrecer sem esforÃ§o e sem efeito sanfona",
             "nextStep": ""
           }
         ],
@@ -1605,7 +1605,7 @@
             "id": "35aa9730-6085-4a3e-bae8-0e60888bba6a",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1617,7 +1617,7 @@
             "id": "b8c8b2f2-9c8e-4d3a-a915-708898884fef",
             "component": "title",
             "type": "title",
-            "title": "{{nome}} quais desses benefícios gostaria de ter?",
+            "title": "{{nome}} quais desses benefÃ­cios gostaria de ter?",
             "subtitle": "Vamos acrescentar ingredientes que ira ajudar na sua escolha.",
             "alignment": "center"
           },
@@ -1637,65 +1637,65 @@
               {
                 "id": "89aeb925-7c3c-44e9-8bd1-295f038c3aec",
                 "label": "Dormir melhor",
-                "emoji": "🤦",
+                "emoji": "ðŸ¤¦",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Dormir melhor",
                 "nextStep": ""
               },
               {
                 "id": "4133ba12-a742-4655-b6f5-2494d2c559e8",
-                "label": "Menos dores e inflamações",
-                "emoji": "🪑",
+                "label": "Menos dores e inflamaÃ§Ãµes",
+                "emoji": "ðŸª‘",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-                "value": "Menos dores e inflamações",
+                "value": "Menos dores e inflamaÃ§Ãµes",
                 "nextStep": ""
               },
               {
                 "id": "13c7ad57-e85b-427c-a6c2-31931a70e9fd",
-                "label": "Mais energia e disposição ao longo do dia",
-                "emoji": "🦵",
+                "label": "Mais energia e disposiÃ§Ã£o ao longo do dia",
+                "emoji": "ðŸ¦µ",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Mais energia e disposição ao longo do dia",
+                "value": "Mais energia e disposiÃ§Ã£o ao longo do dia",
                 "nextStep": ""
               },
               {
                 "id": "c3c3c526-2d2f-4272-82a8-5d855a85fe26",
-                "label": "Redução do estresse e ansiedade",
-                "emoji": "🛏️",
+                "label": "ReduÃ§Ã£o do estresse e ansiedade",
+                "emoji": "ðŸ›ï¸",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Redução do estresse e ansiedade",
+                "value": "ReduÃ§Ã£o do estresse e ansiedade",
                 "nextStep": ""
               },
               {
                 "id": "d36bfade-b428-466c-8353-ffde54f3f93b",
-                "label": "Aumento da autoestima e confiança",
-                "emoji": "😶",
+                "label": "Aumento da autoestima e confianÃ§a",
+                "emoji": "ðŸ˜¶",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Aumento da autoestima e confiança",
+                "value": "Aumento da autoestima e confianÃ§a",
                 "nextStep": ""
               },
               {
                 "id": "e240a75a-c3c4-472d-b864-3149ee664a40",
-                "label": "Proteção contra doenças metabólicas",
-                "emoji": "✅",
+                "label": "ProteÃ§Ã£o contra doenÃ§as metabÃ³licas",
+                "emoji": "âœ…",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Proteção contra doenças metabólicas",
+                "value": "ProteÃ§Ã£o contra doenÃ§as metabÃ³licas",
                 "nextStep": ""
               },
               {
                 "id": "dc885973-72ac-490e-9e83-a9687905c4e3",
-                "label": "Mais facilidade em realizar atividades físicas",
-                "emoji": "✅",
+                "label": "Mais facilidade em realizar atividades fÃ­sicas",
+                "emoji": "âœ…",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Mais facilidade em realizar atividades físicas",
+                "value": "Mais facilidade em realizar atividades fÃ­sicas",
                 "nextStep": ""
               },
               {
                 "id": "a3f0a0c9-4e44-49c7-a850-14e204cbd189",
-                "label": "Emagrecer sem esforço e sem efeito sanfona",
-                "emoji": "✅",
+                "label": "Emagrecer sem esforÃ§o e sem efeito sanfona",
+                "emoji": "âœ…",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Emagrecer sem esforço e sem efeito sanfona",
+                "value": "Emagrecer sem esforÃ§o e sem efeito sanfona",
                 "nextStep": ""
               }
             ]
@@ -1714,10 +1714,10 @@
         "slug": "052d1v2i",
         "type": "testimonial",
         "progress": 45,
-        "title": "🔥 Histórias Reais de Transformação! 🔥",
-        "subtitle": "📍 Depoimento: Claudia – Porto Alegre, RS",
+        "title": "ðŸ”¥ HistÃ³rias Reais de TransformaÃ§Ã£o! ðŸ”¥",
+        "subtitle": "ðŸ“ Depoimento: Claudia â€“ Porto Alegre, RS",
         "description": "",
-        "question": "🔥 Histórias Reais de Transformação! 🔥",
+        "question": "ðŸ”¥ HistÃ³rias Reais de TransformaÃ§Ã£o! ðŸ”¥",
         "image": "assets/imageye___-_imgi_2_7dc2201d-5c87-4ec9-91d8-ebad686785aa.webp",
         "options": [],
         "button": {
@@ -1730,15 +1730,15 @@
             "id": "bb5500a4-98dd-40fe-ade4-de5e6fd75830",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "a9160fd4-00d5-4a41-915c-cfe2338e682e",
             "component": "title",
             "type": "title",
-            "title": "🔥 Histórias Reais de Transformação! 🔥",
-            "subtitle": "📍 Depoimento: Claudia – Porto Alegre, RS",
+            "title": "ðŸ”¥ HistÃ³rias Reais de TransformaÃ§Ã£o! ðŸ”¥",
+            "subtitle": "ðŸ“ Depoimento: Claudia â€“ Porto Alegre, RS",
             "alignment": "center"
           },
           {
@@ -1752,7 +1752,7 @@
             "id": "c132347c-9c80-4aff-8ac4-4459b2d8b6c0",
             "component": "testimony",
             "type": "testimony",
-            "text": "Eu já tinha tentado de tudo para emagrecer, mas nada funcionava. Depois de incluir o Mounjaro Bariátrico na minha rotina, perdi 12kg sem mudar nada na minha alimentação! O mais incrível é que minha fome e ansiedade diminuíram naturalmente!",
+            "text": "Eu jÃ¡ tinha tentado de tudo para emagrecer, mas nada funcionava. Depois de incluir o Mounjaro BariÃ¡trico na minha rotina, perdi 12kg sem mudar nada na minha alimentaÃ§Ã£o! O mais incrÃ­vel Ã© que minha fome e ansiedade diminuÃ­ram naturalmente!",
             "image": "assets/imageye___-_imgi_3_c5893ece-3f9c-4dde-83d4-d9829a210dd2.webp"
           },
           {
@@ -1769,10 +1769,10 @@
         "slug": "6v4v4a5x",
         "type": "measure",
         "progress": 47,
-        "title": "Qual é o seu peso atual?",
-        "subtitle": "Estamos quase lá! Vamos ajustar seu plano de acordo com seu corpo.",
+        "title": "Qual Ã© o seu peso atual?",
+        "subtitle": "Estamos quase lÃ¡! Vamos ajustar seu plano de acordo com seu corpo.",
         "description": "",
-        "question": "Qual é o seu peso atual?",
+        "question": "Qual Ã© o seu peso atual?",
         "image": "",
         "options": [],
         "button": {
@@ -1785,15 +1785,15 @@
             "id": "5f5713f8-b5e3-4e19-9213-12db95044245",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "edbde878-0c4e-403c-a007-d3e7efae6149",
             "component": "title",
             "type": "title",
-            "title": "Qual é o seu peso atual?",
-            "subtitle": "Estamos quase lá! Vamos ajustar seu plano de acordo com seu corpo.",
+            "title": "Qual Ã© o seu peso atual?",
+            "subtitle": "Estamos quase lÃ¡! Vamos ajustar seu plano de acordo com seu corpo.",
             "alignment": "center"
           },
           {
@@ -1813,8 +1813,8 @@
             "id": "9bc1d05e-bab0-4d99-adf0-291161d663b2",
             "component": "note",
             "type": "note",
-            "title": "Calculando seu índice de massa corporal",
-            "text": "O IMC é amplamente utilizado como fator de risco para o desenvolvimento ou prevalência de diversos problemas de saúde."
+            "title": "Calculando seu Ã­ndice de massa corporal",
+            "text": "O IMC Ã© amplamente utilizado como fator de risco para o desenvolvimento ou prevalÃªncia de diversos problemas de saÃºde."
           }
         ]
       },
@@ -1839,7 +1839,7 @@
             "id": "eec3c13c-b056-4ef0-a513-9931ad1ae5eb",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1874,8 +1874,8 @@
             "id": "ef843cc7-8971-4f11-bdae-ae44674634e9",
             "component": "note",
             "type": "note",
-            "title": "Calculando seu índice de massa corporal",
-            "text": "O IMC é amplamente utilizado como fator de risco para o desenvolvimento ou prevalência de diversos problemas de saúde."
+            "title": "Calculando seu Ã­ndice de massa corporal",
+            "text": "O IMC Ã© amplamente utilizado como fator de risco para o desenvolvimento ou prevalÃªncia de diversos problemas de saÃºde."
           }
         ]
       },
@@ -1884,10 +1884,10 @@
         "slug": "2z2f0305",
         "type": "measure",
         "progress": 79,
-        "title": "Qual é o seu peso desejado?",
-        "subtitle": "Estamos quase lá! Vamos ajustar seu plano de acordo com seu corpo.",
+        "title": "Qual Ã© o seu peso desejado?",
+        "subtitle": "Estamos quase lÃ¡! Vamos ajustar seu plano de acordo com seu corpo.",
         "description": "",
-        "question": "Qual é o seu peso desejado?",
+        "question": "Qual Ã© o seu peso desejado?",
         "image": "",
         "options": [],
         "button": {
@@ -1900,15 +1900,15 @@
             "id": "2a249da0-27a8-4fad-a493-8d106c25fd67",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "5dcf2922-1329-4243-95b2-9609d5a65d43",
             "component": "title",
             "type": "title",
-            "title": "Qual é o seu peso desejado?",
-            "subtitle": "Estamos quase lá! Vamos ajustar seu plano de acordo com seu corpo.",
+            "title": "Qual Ã© o seu peso desejado?",
+            "subtitle": "Estamos quase lÃ¡! Vamos ajustar seu plano de acordo com seu corpo.",
             "alignment": "center"
           },
           {
@@ -1938,40 +1938,40 @@
         "slug": "2d3i5s1v",
         "type": "single_choice",
         "progress": 55,
-        "title": "Como é a sua rotina diária?",
-        "subtitle": "Vamos personalizar seu plano conforme sua Rotina diária",
+        "title": "Como Ã© a sua rotina diÃ¡ria?",
+        "subtitle": "Vamos personalizar seu plano conforme sua Rotina diÃ¡ria",
         "description": "",
-        "question": "Como é a sua rotina diária?",
+        "question": "Como Ã© a sua rotina diÃ¡ria?",
         "image": "",
         "options": [
           {
             "id": "4ae9a503-35e1-4e9e-9a04-26e4437a214e",
             "label": "Trabalho fora e tenho uma rotina agitada",
-            "emoji": "🤯",
+            "emoji": "ðŸ¤¯",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Trabalho fora e tenho uma rotina agitada",
             "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
           },
           {
             "id": "8c0cfa1d-95d8-476b-b718-bcd1fdce11d7",
-            "label": "Trabalho em casa e tenho uma rotina flexível",
-            "emoji": "🤭",
+            "label": "Trabalho em casa e tenho uma rotina flexÃ­vel",
+            "emoji": "ðŸ¤­",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-            "value": "Trabalho em casa e tenho uma rotina flexível",
+            "value": "Trabalho em casa e tenho uma rotina flexÃ­vel",
             "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
           },
           {
             "id": "e20994ae-07ff-42f4-9706-6e0646154f92",
-            "label": "Em casa cuidando da família",
-            "emoji": "👨‍👩‍👧",
+            "label": "Em casa cuidando da famÃ­lia",
+            "emoji": "ðŸ‘¨â€ðŸ‘©â€ðŸ‘§",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-            "value": "Em casa cuidando da família",
+            "value": "Em casa cuidando da famÃ­lia",
             "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
           },
           {
             "id": "00503fed-2867-4cb5-b598-a0299d17b506",
             "label": "Outro",
-            "emoji": "😶",
+            "emoji": "ðŸ˜¶",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Outro",
             "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
@@ -1987,7 +1987,7 @@
             "id": "729b150b-0f38-4492-84a0-50c07153d3af",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -1999,8 +1999,8 @@
             "id": "312f0390-1e90-4cb5-8b53-b2c617ec4b35",
             "component": "title",
             "type": "title",
-            "title": "Como é a sua rotina diária?",
-            "subtitle": "Vamos personalizar seu plano conforme sua Rotina diária",
+            "title": "Como Ã© a sua rotina diÃ¡ria?",
+            "subtitle": "Vamos personalizar seu plano conforme sua Rotina diÃ¡ria",
             "alignment": "center"
           },
           {
@@ -2019,31 +2019,31 @@
               {
                 "id": "4ae9a503-35e1-4e9e-9a04-26e4437a214e",
                 "label": "Trabalho fora e tenho uma rotina agitada",
-                "emoji": "🤯",
+                "emoji": "ðŸ¤¯",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Trabalho fora e tenho uma rotina agitada",
                 "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
               },
               {
                 "id": "8c0cfa1d-95d8-476b-b718-bcd1fdce11d7",
-                "label": "Trabalho em casa e tenho uma rotina flexível",
-                "emoji": "🤭",
+                "label": "Trabalho em casa e tenho uma rotina flexÃ­vel",
+                "emoji": "ðŸ¤­",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-                "value": "Trabalho em casa e tenho uma rotina flexível",
+                "value": "Trabalho em casa e tenho uma rotina flexÃ­vel",
                 "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
               },
               {
                 "id": "e20994ae-07ff-42f4-9706-6e0646154f92",
-                "label": "Em casa cuidando da família",
-                "emoji": "👨‍👩‍👧",
+                "label": "Em casa cuidando da famÃ­lia",
+                "emoji": "ðŸ‘¨â€ðŸ‘©â€ðŸ‘§",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
-                "value": "Em casa cuidando da família",
+                "value": "Em casa cuidando da famÃ­lia",
                 "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
               },
               {
                 "id": "00503fed-2867-4cb5-b598-a0299d17b506",
                 "label": "Outro",
-                "emoji": "😶",
+                "emoji": "ðŸ˜¶",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Outro",
                 "nextStep": "edf0d0bb-6c9f-4e5e-83e8-116a6133eb7e"
@@ -2057,16 +2057,16 @@
         "slug": "3z6v156l",
         "type": "single_choice",
         "progress": 82,
-        "title": "Quantas horas de sono você costuma ter por noite?",
-        "subtitle": "Você vai Queimar Gordura enquanto dorme!",
+        "title": "Quantas horas de sono vocÃª costuma ter por noite?",
+        "subtitle": "VocÃª vai Queimar Gordura enquanto dorme!",
         "description": "",
-        "question": "Quantas horas de sono você costuma ter por noite?",
+        "question": "Quantas horas de sono vocÃª costuma ter por noite?",
         "image": "",
         "options": [
           {
             "id": "f1738f03-83aa-4cb0-862f-5865e075abc9",
             "label": "Menos de 5 horas",
-            "emoji": "⏰",
+            "emoji": "â°",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Menos de 5 horas",
             "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2074,7 +2074,7 @@
           {
             "id": "82342ced-1ba0-4082-b79b-42a22ec0f1e7",
             "label": "Entre 5 e 7 horas",
-            "emoji": "⏰",
+            "emoji": "â°",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
             "value": "Entre 5 e 7 horas",
             "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2082,7 +2082,7 @@
           {
             "id": "4f9af7ba-a4ca-43e3-bb2e-b2dd93deeec9",
             "label": "Entre 7 e 9 horas",
-            "emoji": "⏰",
+            "emoji": "â°",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Entre 7 e 9 horas",
             "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2090,7 +2090,7 @@
           {
             "id": "d8d37358-ec02-4c5c-88c5-d24a51476c6a",
             "label": "Mais de 9 horas",
-            "emoji": "⏰",
+            "emoji": "â°",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Mais de 9 horas",
             "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2106,7 +2106,7 @@
             "id": "da2064d4-05f2-4222-9c4e-29bc4dc548e0",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2125,8 +2125,8 @@
             "id": "d14ec91e-945d-4964-8f3c-f7b25455d09e",
             "component": "title",
             "type": "title",
-            "title": "Quantas horas de sono você costuma ter por noite?",
-            "subtitle": "Você vai Queimar Gordura enquanto dorme!",
+            "title": "Quantas horas de sono vocÃª costuma ter por noite?",
+            "subtitle": "VocÃª vai Queimar Gordura enquanto dorme!",
             "alignment": "center"
           },
           {
@@ -2145,7 +2145,7 @@
               {
                 "id": "f1738f03-83aa-4cb0-862f-5865e075abc9",
                 "label": "Menos de 5 horas",
-                "emoji": "⏰",
+                "emoji": "â°",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Menos de 5 horas",
                 "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2153,7 +2153,7 @@
               {
                 "id": "82342ced-1ba0-4082-b79b-42a22ec0f1e7",
                 "label": "Entre 5 e 7 horas",
-                "emoji": "⏰",
+                "emoji": "â°",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
                 "value": "Entre 5 e 7 horas",
                 "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2161,7 +2161,7 @@
               {
                 "id": "4f9af7ba-a4ca-43e3-bb2e-b2dd93deeec9",
                 "label": "Entre 7 e 9 horas",
-                "emoji": "⏰",
+                "emoji": "â°",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Entre 7 e 9 horas",
                 "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2169,7 +2169,7 @@
               {
                 "id": "d8d37358-ec02-4c5c-88c5-d24a51476c6a",
                 "label": "Mais de 9 horas",
-                "emoji": "⏰",
+                "emoji": "â°",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Mais de 9 horas",
                 "nextStep": "bba2dd44-953c-4d1f-ad82-c4a1c4d26bf3"
@@ -2183,24 +2183,24 @@
         "slug": "723i3h2s",
         "type": "single_choice",
         "progress": 83,
-        "title": "Quantos copos de água você bebe por dia?",
-        "subtitle": "Seu nível de hidratação também influencia na sua perda de peso.",
+        "title": "Quantos copos de Ã¡gua vocÃª bebe por dia?",
+        "subtitle": "Seu nÃ­vel de hidrataÃ§Ã£o tambÃ©m influencia na sua perda de peso.",
         "description": "",
-        "question": "Quantos copos de água você bebe por dia?",
+        "question": "Quantos copos de Ã¡gua vocÃª bebe por dia?",
         "image": "",
         "options": [
           {
             "id": "67eba781-7835-4035-8348-91d7a285cb11",
-            "label": "Apenas chá ou café",
-            "emoji": "☕",
+            "label": "Apenas chÃ¡ ou cafÃ©",
+            "emoji": "â˜•",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
-            "value": "Apenas chá ou café",
+            "value": "Apenas chÃ¡ ou cafÃ©",
             "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
           },
           {
             "id": "4d57af83-c3fc-44e6-9ed6-bf48ce853dc8",
             "label": "1-2 copos por dia",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
             "value": "1-2 copos por dia",
             "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2208,7 +2208,7 @@
           {
             "id": "e9fd240f-19b7-4b7d-8b52-c601a1dff5c5",
             "label": "2-6 copos por dia",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "2-6 copos por dia",
             "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2216,7 +2216,7 @@
           {
             "id": "1c995c8d-db0a-4074-b2e2-9ea0b5d35a72",
             "label": "Mais de 6 copos",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
             "value": "Mais de 6 copos",
             "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2232,7 +2232,7 @@
             "id": "43e96675-539d-44d2-a4b2-45fb497ce2e2",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2251,8 +2251,8 @@
             "id": "1573e182-8a49-4e51-a94f-e488d8d9d33a",
             "component": "title",
             "type": "title",
-            "title": "Quantos copos de água você bebe por dia?",
-            "subtitle": "Seu nível de hidratação também influencia na sua perda de peso.",
+            "title": "Quantos copos de Ã¡gua vocÃª bebe por dia?",
+            "subtitle": "Seu nÃ­vel de hidrataÃ§Ã£o tambÃ©m influencia na sua perda de peso.",
             "alignment": "center"
           },
           {
@@ -2270,16 +2270,16 @@
             "options": [
               {
                 "id": "67eba781-7835-4035-8348-91d7a285cb11",
-                "label": "Apenas chá ou café",
-                "emoji": "☕",
+                "label": "Apenas chÃ¡ ou cafÃ©",
+                "emoji": "â˜•",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
-                "value": "Apenas chá ou café",
+                "value": "Apenas chÃ¡ ou cafÃ©",
                 "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
               },
               {
                 "id": "4d57af83-c3fc-44e6-9ed6-bf48ce853dc8",
                 "label": "1-2 copos por dia",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
                 "value": "1-2 copos por dia",
                 "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2287,7 +2287,7 @@
               {
                 "id": "e9fd240f-19b7-4b7d-8b52-c601a1dff5c5",
                 "label": "2-6 copos por dia",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "2-6 copos por dia",
                 "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2295,7 +2295,7 @@
               {
                 "id": "1c995c8d-db0a-4074-b2e2-9ea0b5d35a72",
                 "label": "Mais de 6 copos",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/xquiz_02e6894e-447c-4551-a59e-95e4e4d8cd20.webp",
                 "value": "Mais de 6 copos",
                 "nextStep": "21ab5a1f-9127-4c46-9a45-e447eebf8648"
@@ -2309,24 +2309,24 @@
         "slug": "4h6q6p11",
         "type": "single_choice",
         "progress": 84,
-        "title": "Qual dessas frutas você costuma preferir mais no seu dia a dia?",
-        "subtitle": "Suas preferências alimentares também ajudam no processo!",
+        "title": "Qual dessas frutas vocÃª costuma preferir mais no seu dia a dia?",
+        "subtitle": "Suas preferÃªncias alimentares tambÃ©m ajudam no processo!",
         "description": "",
-        "question": "Qual dessas frutas você costuma preferir mais no seu dia a dia?",
+        "question": "Qual dessas frutas vocÃª costuma preferir mais no seu dia a dia?",
         "image": "",
         "options": [
           {
             "id": "6630c972-5b3c-48dc-bb6a-ce430a9576c9",
-            "label": "Limão",
-            "emoji": "☕",
+            "label": "LimÃ£o",
+            "emoji": "â˜•",
             "image": "assets/imageye___-_imgi_2_5486239b-7877-4974-b6a0-b980406af16e.webp",
-            "value": "Limão",
+            "value": "LimÃ£o",
             "nextStep": ""
           },
           {
             "id": "2ea6ad81-9f9d-49e7-999e-a721480ff0d5",
             "label": "Laranja",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/imageye___-_imgi_3_baf23d9c-254a-404c-b3d0-c0ddffe72700.webp",
             "value": "Laranja",
             "nextStep": ""
@@ -2334,23 +2334,23 @@
           {
             "id": "3009e868-b110-4d67-8b77-cb2a74f5887a",
             "label": "Banana",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/imageye___-_imgi_4_9b73d7e5-7a90-46c4-a01d-87f6c7b103ce.webp",
             "value": "Banana",
             "nextStep": ""
           },
           {
             "id": "7ba08a76-9b11-4847-ad4e-a75a18f4828b",
-            "label": "Maça",
-            "emoji": "💧",
+            "label": "MaÃ§a",
+            "emoji": "ðŸ’§",
             "image": "assets/imageye___-_imgi_5_d1ed74d7-23a1-4add-a3f0-b7def8f5da88.webp",
-            "value": "Maça",
+            "value": "MaÃ§a",
             "nextStep": ""
           },
           {
             "id": "57546faf-3516-4f5e-8894-4dbf4f1e7195",
             "label": "Morango",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/imageye___-_imgi_6_c8fa2c50-af34-450b-9d40-1be070d7cb5f.png",
             "value": "Morango",
             "nextStep": ""
@@ -2358,7 +2358,7 @@
           {
             "id": "3f5ab48b-d47c-4b2f-b6ef-38522b85e87a",
             "label": "Abacaxi",
-            "emoji": "💧",
+            "emoji": "ðŸ’§",
             "image": "assets/imageye___-_imgi_7_3b08b8a5-ba18-4944-a4c2-8dc2989a9a50.webp",
             "value": "Abacaxi",
             "nextStep": ""
@@ -2374,7 +2374,7 @@
             "id": "1e56b0de-f56f-48a1-a9a0-535583b74ae5",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2393,8 +2393,8 @@
             "id": "a5c23302-fe40-4393-89ec-d66d843c0271",
             "component": "title",
             "type": "title",
-            "title": "Qual dessas frutas você costuma preferir mais no seu dia a dia?",
-            "subtitle": "Suas preferências alimentares também ajudam no processo!",
+            "title": "Qual dessas frutas vocÃª costuma preferir mais no seu dia a dia?",
+            "subtitle": "Suas preferÃªncias alimentares tambÃ©m ajudam no processo!",
             "alignment": "center"
           },
           {
@@ -2412,16 +2412,16 @@
             "options": [
               {
                 "id": "6630c972-5b3c-48dc-bb6a-ce430a9576c9",
-                "label": "Limão",
-                "emoji": "☕",
+                "label": "LimÃ£o",
+                "emoji": "â˜•",
                 "image": "assets/imageye___-_imgi_2_5486239b-7877-4974-b6a0-b980406af16e.webp",
-                "value": "Limão",
+                "value": "LimÃ£o",
                 "nextStep": ""
               },
               {
                 "id": "2ea6ad81-9f9d-49e7-999e-a721480ff0d5",
                 "label": "Laranja",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/imageye___-_imgi_3_baf23d9c-254a-404c-b3d0-c0ddffe72700.webp",
                 "value": "Laranja",
                 "nextStep": ""
@@ -2429,23 +2429,23 @@
               {
                 "id": "3009e868-b110-4d67-8b77-cb2a74f5887a",
                 "label": "Banana",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/imageye___-_imgi_4_9b73d7e5-7a90-46c4-a01d-87f6c7b103ce.webp",
                 "value": "Banana",
                 "nextStep": ""
               },
               {
                 "id": "7ba08a76-9b11-4847-ad4e-a75a18f4828b",
-                "label": "Maça",
-                "emoji": "💧",
+                "label": "MaÃ§a",
+                "emoji": "ðŸ’§",
                 "image": "assets/imageye___-_imgi_5_d1ed74d7-23a1-4add-a3f0-b7def8f5da88.webp",
-                "value": "Maça",
+                "value": "MaÃ§a",
                 "nextStep": ""
               },
               {
                 "id": "57546faf-3516-4f5e-8894-4dbf4f1e7195",
                 "label": "Morango",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/imageye___-_imgi_6_c8fa2c50-af34-450b-9d40-1be070d7cb5f.png",
                 "value": "Morango",
                 "nextStep": ""
@@ -2453,7 +2453,7 @@
               {
                 "id": "3f5ab48b-d47c-4b2f-b6ef-38522b85e87a",
                 "label": "Abacaxi",
-                "emoji": "💧",
+                "emoji": "ðŸ’§",
                 "image": "assets/imageye___-_imgi_7_3b08b8a5-ba18-4944-a4c2-8dc2989a9a50.webp",
                 "value": "Abacaxi",
                 "nextStep": ""
@@ -2512,10 +2512,10 @@
         "slug": "0m4z346o",
         "type": "result",
         "progress": 68,
-        "title": "{{nome}}, ouça meu áudio urgente!",
+        "title": "{{nome}}, ouÃ§a meu Ã¡udio urgente!",
         "subtitle": "",
         "description": "",
-        "question": "{{nome}}, ouça meu áudio urgente!",
+        "question": "{{nome}}, ouÃ§a meu Ã¡udio urgente!",
         "image": "assets/imageye___-_imgi_4_71129f25-c036-4202-a662-a7c23007bcc3.webp",
         "options": [],
         "button": {
@@ -2528,14 +2528,14 @@
             "id": "628b6e2a-9198-45f3-9f9d-1af3219a6f4c",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "8484a017-37a4-489d-afcf-b4c58e5b9227",
             "component": "title",
             "type": "title",
-            "title": "{{nome}}, ouça meu áudio urgente!",
+            "title": "{{nome}}, ouÃ§a meu Ã¡udio urgente!",
             "subtitle": "",
             "alignment": "center"
           },
@@ -2550,14 +2550,14 @@
             "id": "b395497f-5284-4498-bc48-98dbf187e9ef",
             "component": "result",
             "type": "resultBox",
-            "title": "Índice de massa corporal (IMC)",
+            "title": "Ãndice de massa corporal (IMC)",
             "text": ""
           },
           {
             "id": "a2187a05-5bcd-469d-bcdb-505fd398ab9d",
             "component": "report",
             "type": "report",
-            "title": "Índice de massa corporal: Muito alto!",
+            "title": "Ãndice de massa corporal: Muito alto!",
             "image": "assets/imageye___-_imgi_3_21d97228-cfd5-4f82-a09a-ebd2c0b9bda8.webp",
             "text": ""
           },
@@ -2565,7 +2565,7 @@
             "id": "4e745823-7eb5-4384-9d51-d5f8683c8d5f",
             "component": "title",
             "type": "title",
-            "title": "Você pode perder de 9KG a 15KG em 3 semanas com os Chás ideais!",
+            "title": "VocÃª pode perder de 9KG a 15KG em 3 semanas com os ChÃ¡s ideais!",
             "subtitle": "",
             "alignment": "center"
           },
@@ -2592,7 +2592,7 @@
             "id": "a7b89a4a-6ed8-4e20-9f5a-380803cefdc1",
             "component": "text",
             "type": "text",
-            "text": "Veja a transformação da Bárbara!",
+            "text": "Veja a transformaÃ§Ã£o da BÃ¡rbara!",
             "alignment": "center"
           },
           {
@@ -2616,26 +2616,26 @@
         "slug": "1p3d5w3p",
         "type": "single_choice",
         "progress": 71,
-        "title": "Você tem alguma condição de saúde?",
+        "title": "VocÃª tem alguma condiÃ§Ã£o de saÃºde?",
         "subtitle": "Antes de finalizar, precisamos de mais um detalhe importante.",
         "description": "",
-        "question": "Você tem alguma condição de saúde?",
+        "question": "VocÃª tem alguma condiÃ§Ã£o de saÃºde?",
         "image": "",
         "options": [
           {
             "id": "d1d2cd71-ba0b-4c2f-8892-8afe857d1d0c",
             "label": "Sim",
-            "emoji": "✅",
+            "emoji": "âœ…",
             "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
             "value": "Sim",
             "nextStep": "1520e539-6df0-43ec-869a-0d3edd4de696"
           },
           {
             "id": "4d8cddd5-f08a-4003-864a-2b265b2f336e",
-            "label": "Não",
-            "emoji": "❌",
+            "label": "NÃ£o",
+            "emoji": "âŒ",
             "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-            "value": "Não",
+            "value": "NÃ£o",
             "nextStep": "b8aa9de6-53cf-4275-8196-713f339fbc2c"
           }
         ],
@@ -2649,7 +2649,7 @@
             "id": "98c18b16-f7ba-4517-8d9e-dc522a151cdb",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2668,7 +2668,7 @@
             "id": "91c15350-8afe-4cdb-9377-88d178c392e7",
             "component": "title",
             "type": "title",
-            "title": "Você tem alguma condição de saúde?",
+            "title": "VocÃª tem alguma condiÃ§Ã£o de saÃºde?",
             "subtitle": "Antes de finalizar, precisamos de mais um detalhe importante.",
             "alignment": "center"
           },
@@ -2688,17 +2688,17 @@
               {
                 "id": "d1d2cd71-ba0b-4c2f-8892-8afe857d1d0c",
                 "label": "Sim",
-                "emoji": "✅",
+                "emoji": "âœ…",
                 "image": "assets/xquiz_56df0799-4e85-4433-bd1d-747242e11b54.webp",
                 "value": "Sim",
                 "nextStep": "1520e539-6df0-43ec-869a-0d3edd4de696"
               },
               {
                 "id": "4d8cddd5-f08a-4003-864a-2b265b2f336e",
-                "label": "Não",
-                "emoji": "❌",
+                "label": "NÃ£o",
+                "emoji": "âŒ",
                 "image": "assets/xquiz_76de1c2c-530a-45bc-b75c-17fc701cc6ea.webp",
-                "value": "Não",
+                "value": "NÃ£o",
                 "nextStep": "b8aa9de6-53cf-4275-8196-713f339fbc2c"
               }
             ]
@@ -2707,7 +2707,7 @@
             "id": "fdb27330-9e55-46a5-9645-8087c8751da0",
             "component": "note",
             "type": "note",
-            "title": "Isso garantirá que sua fórmula seja 100% segura para você!",
+            "title": "Isso garantirÃ¡ que sua fÃ³rmula seja 100% segura para vocÃª!",
             "text": ""
           }
         ]
@@ -2726,7 +2726,7 @@
           {
             "id": "f6b099c2-c4a4-4745-a1ac-b3315720ef1b",
             "label": "WhatsApp",
-            "emoji": "💚",
+            "emoji": "ðŸ’š",
             "image": "assets/xquiz_d7f4ab85-80de-4674-abc8-8e13370c2b86.webp",
             "value": "WhatsApp",
             "nextStep": "23ca6b56-bd6f-4005-a348-7942c7841a92"
@@ -2734,7 +2734,7 @@
           {
             "id": "ed8a9455-7dcb-4a90-82a5-40ca9d875a93",
             "label": "E-mail",
-            "emoji": "💻",
+            "emoji": "ðŸ’»",
             "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
             "value": "E-mail",
             "nextStep": "23c3b89b-5e15-44f8-ab74-e1e42972bc98"
@@ -2750,7 +2750,7 @@
             "id": "184c2732-af44-4c3f-bc23-3d18b6cff549",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2779,7 +2779,7 @@
               {
                 "id": "f6b099c2-c4a4-4745-a1ac-b3315720ef1b",
                 "label": "WhatsApp",
-                "emoji": "💚",
+                "emoji": "ðŸ’š",
                 "image": "assets/xquiz_d7f4ab85-80de-4674-abc8-8e13370c2b86.webp",
                 "value": "WhatsApp",
                 "nextStep": "23ca6b56-bd6f-4005-a348-7942c7841a92"
@@ -2787,7 +2787,7 @@
               {
                 "id": "ed8a9455-7dcb-4a90-82a5-40ca9d875a93",
                 "label": "E-mail",
-                "emoji": "💻",
+                "emoji": "ðŸ’»",
                 "image": "assets/xquiz_7f5e5b60-78d2-45e9-9fde-79f9cd13511c.webp",
                 "value": "E-mail",
                 "nextStep": "23c3b89b-5e15-44f8-ab74-e1e42972bc98"
@@ -2801,10 +2801,10 @@
         "slug": "016b3616",
         "type": "form",
         "progress": 76,
-        "title": "Qual dos problemas abaixo? 👇🏻",
-        "subtitle": "Diabetes, Hipertensão, Doenças cardiovasculares, Pressão alta, Menopausa, Hipotireoidismo, Depressão, Ansiedade, Síndrome do Intestino Irritável, problemas Digestivos como refluxo, gastrite e outros...",
+        "title": "Qual dos problemas abaixo? ðŸ‘‡ðŸ»",
+        "subtitle": "Diabetes, HipertensÃ£o, DoenÃ§as cardiovasculares, PressÃ£o alta, Menopausa, Hipotireoidismo, DepressÃ£o, Ansiedade, SÃ­ndrome do Intestino IrritÃ¡vel, problemas Digestivos como refluxo, gastrite e outros...",
         "description": "",
-        "question": "Qual dos problemas abaixo? 👇🏻",
+        "question": "Qual dos problemas abaixo? ðŸ‘‡ðŸ»",
         "image": "",
         "options": [],
         "button": {
@@ -2817,15 +2817,15 @@
             "id": "cfa087b0-7515-4ec6-a750-77fd4ac84471",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "04ca3f44-1b90-484c-8ca2-51be8df3ab88",
             "component": "title",
             "type": "title",
-            "title": "Qual dos problemas abaixo? 👇🏻",
-            "subtitle": "Diabetes, Hipertensão, Doenças cardiovasculares, Pressão alta, Menopausa, Hipotireoidismo, Depressão, Ansiedade, Síndrome do Intestino Irritável, problemas Digestivos como refluxo, gastrite e outros...",
+            "title": "Qual dos problemas abaixo? ðŸ‘‡ðŸ»",
+            "subtitle": "Diabetes, HipertensÃ£o, DoenÃ§as cardiovasculares, PressÃ£o alta, Menopausa, Hipotireoidismo, DepressÃ£o, Ansiedade, SÃ­ndrome do Intestino IrritÃ¡vel, problemas Digestivos como refluxo, gastrite e outros...",
             "alignment": "center"
           },
           {
@@ -2837,7 +2837,7 @@
               {
                 "id": "ef46348c-3406-4232-9688-5303a9404da1",
                 "name": "doen_as",
-                "label": "Doenças",
+                "label": "DoenÃ§as",
                 "placeholder": "Escreva o seu problema aqui",
                 "required": true
               }
@@ -2850,10 +2850,10 @@
         "slug": "474y033h",
         "type": "form",
         "progress": 79,
-        "title": "Digite seu número do whatsapp para receber seu plano personalizado",
+        "title": "Digite seu nÃºmero do whatsapp para receber seu plano personalizado",
         "subtitle": "",
         "description": "",
-        "question": "Digite seu número do whatsapp para receber seu plano personalizado",
+        "question": "Digite seu nÃºmero do whatsapp para receber seu plano personalizado",
         "image": "",
         "options": [],
         "button": {
@@ -2866,14 +2866,14 @@
             "id": "3f3c0d4b-2421-419a-996b-bd6fb510faa5",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "10edfdf9-9f38-4eb0-be0b-49f7b8b7e7a4",
             "component": "title",
             "type": "title",
-            "title": "Digite seu número do whatsapp para receber seu plano personalizado",
+            "title": "Digite seu nÃºmero do whatsapp para receber seu plano personalizado",
             "subtitle": "",
             "alignment": "center"
           },
@@ -2915,7 +2915,7 @@
             "id": "aa14d106-53df-4222-9086-b9b875f93126",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -2986,10 +2986,10 @@
         "slug": "2v2a1t5l",
         "type": "content",
         "progress": 87,
-        "title": "{{nome}} fique tranquila! Assim que você finalizar sua avaliação, você vai receber a sua receitinha no seu 📩E-mail e no seu Whatsapp 💓",
+        "title": "{{nome}} fique tranquila! Assim que vocÃª finalizar sua avaliaÃ§Ã£o, vocÃª vai receber a sua receitinha no seu ðŸ“©E-mail e no seu Whatsapp ðŸ’“",
         "subtitle": "",
         "description": "",
-        "question": "{{nome}} fique tranquila! Assim que você finalizar sua avaliação, você vai receber a sua receitinha no seu 📩E-mail e no seu Whatsapp 💓",
+        "question": "{{nome}} fique tranquila! Assim que vocÃª finalizar sua avaliaÃ§Ã£o, vocÃª vai receber a sua receitinha no seu ðŸ“©E-mail e no seu Whatsapp ðŸ’“",
         "image": "",
         "options": [],
         "button": {
@@ -3002,14 +3002,14 @@
             "id": "960a7bcf-4820-4e66-9c6b-7a735b204065",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "504ef685-20fd-44b5-80fc-70ba5878ac37",
             "component": "title",
             "type": "title",
-            "title": "{{nome}} fique tranquila! Assim que você finalizar sua avaliação, você vai receber a sua receitinha no seu 📩E-mail e no seu Whatsapp 💓",
+            "title": "{{nome}} fique tranquila! Assim que vocÃª finalizar sua avaliaÃ§Ã£o, vocÃª vai receber a sua receitinha no seu ðŸ“©E-mail e no seu Whatsapp ðŸ’“",
             "subtitle": "",
             "alignment": "center"
           },
@@ -3027,10 +3027,10 @@
         "slug": "3x241c58",
         "type": "content",
         "progress": 89,
-        "title": "{{nome}}, você diz que tem {{doenças}} , pode ficar em paz que vamos adaptar as receitas para que você queime gordura de forma simples e segura! ❤️",
+        "title": "{{nome}}, vocÃª diz que tem {{doenÃ§as}} , pode ficar em paz que vamos adaptar as receitas para que vocÃª queime gordura de forma simples e segura! â¤ï¸",
         "subtitle": "",
         "description": "",
-        "question": "{{nome}}, você diz que tem {{doenças}} , pode ficar em paz que vamos adaptar as receitas para que você queime gordura de forma simples e segura! ❤️",
+        "question": "{{nome}}, vocÃª diz que tem {{doenÃ§as}} , pode ficar em paz que vamos adaptar as receitas para que vocÃª queime gordura de forma simples e segura! â¤ï¸",
         "image": "",
         "options": [],
         "button": {
@@ -3043,14 +3043,14 @@
             "id": "0a1f6f48-6c6a-43f8-a144-f0f175fd301f",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
             "id": "5f82d5db-6a61-4d6c-97e6-6d86a6ab5899",
             "component": "title",
             "type": "title",
-            "title": "{{nome}}, você diz que tem {{doenças}} , pode ficar em paz que vamos adaptar as receitas para que você queime gordura de forma simples e segura! ❤️",
+            "title": "{{nome}}, vocÃª diz que tem {{doenÃ§as}} , pode ficar em paz que vamos adaptar as receitas para que vocÃª queime gordura de forma simples e segura! â¤ï¸",
             "subtitle": "",
             "alignment": "center"
           },
@@ -3069,7 +3069,7 @@
         "type": "single_choice",
         "progress": 95,
         "title": "Qual o corpo dos seus sonhos?",
-        "subtitle": "Escolha a opção abaixo:",
+        "subtitle": "Escolha a opÃ§Ã£o abaixo:",
         "description": "",
         "question": "Qual o corpo dos seus sonhos?",
         "image": "",
@@ -3077,7 +3077,7 @@
           {
             "id": "36af1f67-63c6-443f-84aa-c64be6763c8e",
             "label": "Natural",
-            "emoji": "💚",
+            "emoji": "ðŸ’š",
             "image": "assets/imageye___-_imgi_2_547e3732-1335-4928-94f4-29f2b66b9ae7.webp",
             "value": "Natural",
             "nextStep": "8939cb02-33f7-4fc5-ae76-798ebfc6ce2c"
@@ -3085,7 +3085,7 @@
           {
             "id": "4e551346-acd0-47ee-82c6-7c014c608719",
             "label": "Em forma",
-            "emoji": "💻",
+            "emoji": "ðŸ’»",
             "image": "assets/imageye___-_imgi_3_9d768abb-00fa-4d0b-9899-bc57e6a4fdc7.webp",
             "value": "Em forma",
             "nextStep": "8939cb02-33f7-4fc5-ae76-798ebfc6ce2c"
@@ -3101,7 +3101,7 @@
             "id": "405a5f7f-998a-4532-ad3b-185b3dcc9d25",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -3114,7 +3114,7 @@
             "component": "title",
             "type": "title",
             "title": "Qual o corpo dos seus sonhos?",
-            "subtitle": "Escolha a opção abaixo:",
+            "subtitle": "Escolha a opÃ§Ã£o abaixo:",
             "alignment": "center"
           },
           {
@@ -3130,7 +3130,7 @@
               {
                 "id": "36af1f67-63c6-443f-84aa-c64be6763c8e",
                 "label": "Natural",
-                "emoji": "💚",
+                "emoji": "ðŸ’š",
                 "image": "assets/imageye___-_imgi_2_547e3732-1335-4928-94f4-29f2b66b9ae7.webp",
                 "value": "Natural",
                 "nextStep": "8939cb02-33f7-4fc5-ae76-798ebfc6ce2c"
@@ -3138,7 +3138,7 @@
               {
                 "id": "4e551346-acd0-47ee-82c6-7c014c608719",
                 "label": "Em forma",
-                "emoji": "💻",
+                "emoji": "ðŸ’»",
                 "image": "assets/imageye___-_imgi_3_9d768abb-00fa-4d0b-9899-bc57e6a4fdc7.webp",
                 "value": "Em forma",
                 "nextStep": "8939cb02-33f7-4fc5-ae76-798ebfc6ce2c"
@@ -3190,14 +3190,14 @@
         "slug": "5u421x6n",
         "type": "content",
         "progress": 98,
-        "title": "{{nome}} está pronta para investir em si mesma e alcançar os resultados que sempre desejou?",
+        "title": "{{nome}} estÃ¡ pronta para investir em si mesma e alcanÃ§ar os resultados que sempre desejou?",
         "subtitle": "",
         "description": "",
-        "question": "{{nome}} está pronta para investir em si mesma e alcançar os resultados que sempre desejou?",
+        "question": "{{nome}} estÃ¡ pronta para investir em si mesma e alcanÃ§ar os resultados que sempre desejou?",
         "image": "",
         "options": [],
         "button": {
-          "text": "Sim, quero começar agora!",
+          "text": "Sim, quero comeÃ§ar agora!",
           "visible": true
         },
         "nextStep": "ef64186e-c292-4144-a649-9aba2deb6735",
@@ -3206,7 +3206,7 @@
             "id": "00f94698-39c0-4c60-99d2-41a023de47be",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -3218,7 +3218,7 @@
             "id": "53df2a4d-c03d-4bfb-9f41-772fc754b7ec",
             "component": "title",
             "type": "title",
-            "title": "{{nome}} está pronta para investir em si mesma e alcançar os resultados que sempre desejou?",
+            "title": "{{nome}} estÃ¡ pronta para investir em si mesma e alcanÃ§ar os resultados que sempre desejou?",
             "subtitle": "",
             "alignment": "center"
           },
@@ -3231,7 +3231,7 @@
             "id": "4351b853-92a6-4477-ac26-f0f606d71601",
             "component": "button",
             "type": "button",
-            "text": "Sim, quero começar agora!",
+            "text": "Sim, quero comeÃ§ar agora!",
             "animation": "pulse"
           }
         ]
@@ -3241,10 +3241,10 @@
         "slug": "5z4m153b",
         "type": "offer",
         "progress": 99,
-        "title": "Assista o vídeo e pegue sua receita hoje mesmo!",
+        "title": "Assista o vÃ­deo e pegue sua receita hoje mesmo!",
         "subtitle": "",
         "description": "",
-        "question": "Assista o vídeo e pegue sua receita hoje mesmo!",
+        "question": "Assista o vÃ­deo e pegue sua receita hoje mesmo!",
         "image": "",
         "options": [],
         "button": {
@@ -3257,7 +3257,7 @@
             "id": "33b092d6-646c-40f1-a3f0-85a40fd4bd89",
             "component": "headerV2",
             "type": "header",
-            "logo": "assets/xquiz_d661ae3f-2f6b-4f8c-bd4e-fcd7d37d9487.png",
+            "logo": "assets/banana-bariatrica-logo.webp",
             "logoSize": 70
           },
           {
@@ -3269,7 +3269,7 @@
             "id": "f178edc5-59c8-4997-9c74-e91670e021f7",
             "component": "title",
             "type": "title",
-            "title": "Assista o vídeo e pegue sua receita hoje mesmo!",
+            "title": "Assista o vÃ­deo e pegue sua receita hoje mesmo!",
             "subtitle": "",
             "alignment": "center"
           },
