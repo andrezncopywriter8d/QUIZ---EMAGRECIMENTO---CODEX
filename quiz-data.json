@@ -2470,7 +2470,7 @@
         "subtitle": "",
         "description": "",
         "question": "",
-        "image": "assets/xquiz_651f5b28-a288-46a9-a2e8-254e32443b81.webp",
+        "image": "assets/banana-loading-analise.webp",
         "options": [],
         "button": {
           "text": "",
@@ -2483,7 +2483,7 @@
             "id": "59c59a30-8f7d-410f-9fa4-48716f774f4d",
             "component": "image",
             "type": "image",
-            "src": "assets/xquiz_651f5b28-a288-46a9-a2e8-254e32443b81.webp",
+            "src": "assets/banana-loading-analise.webp",
             "size": "w-full"
           },
           {
@@ -2944,7 +2944,7 @@
         "subtitle": "",
         "description": "",
         "question": "",
-        "image": "assets/imageye___-_imgi_1_2fd60373-2b92-4b09-9434-73af149753cc.webp",
+        "image": "assets/banana-loading-analise.webp",
         "options": [],
         "button": {
           "text": "",
@@ -2957,7 +2957,7 @@
             "id": "be16a079-9fad-4bf0-b9fc-aefba50307b6",
             "component": "image",
             "type": "image",
-            "src": "assets/imageye___-_imgi_1_2fd60373-2b92-4b09-9434-73af149753cc.webp",
+            "src": "assets/banana-loading-analise.webp",
             "size": "w-full"
           },
           {
@@ -3148,7 +3148,7 @@
         "subtitle": "",
         "description": "",
         "question": "",
-        "image": "assets/xquiz_216f5a45-04b8-482b-9a30-b35e645a911a.webp",
+        "image": "assets/banana-loading-analise.webp",
         "options": [],
         "button": {
           "text": "",
@@ -3161,7 +3161,7 @@
             "id": "7dd9a491-8a17-47fb-8218-79adace7b546",
             "component": "image",
             "type": "image",
-            "src": "assets/xquiz_216f5a45-04b8-482b-9a30-b35e645a911a.webp",
+            "src": "assets/banana-loading-analise.webp",
             "size": "w-full"
           },
           {
