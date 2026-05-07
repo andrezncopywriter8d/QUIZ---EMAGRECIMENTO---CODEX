@@ -57,7 +57,7 @@ window.QUIZ_DATA = {
             "id": "4d8c8197-a558-47fc-963c-daab1d3d1148",
             "component": "textV2",
             "type": "text",
-            "text": "⚠️ESSE CHÁ NÃO FUNCIONA IGUAL PARA TODO MUNDO, O SEGREDO ESTÁ EM PREPARAR DO JEITO CERTO!",
+            "text": "⚠️ESSA RECEITA SECRETA NÃO FUNCIONA IGUAL PARA TODO MUNDO, O SEGREDO ESTÁ EM PREPARAR DO JEITO CERTO!",
             "alignment": "center"
           },
           {
