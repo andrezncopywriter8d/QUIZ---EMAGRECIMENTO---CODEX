@@ -84,6 +84,7 @@ drop policy if exists "public read quiz sessions dashboard" on public.quiz_sessi
 drop policy if exists "public insert quiz events" on public.quiz_events;
 drop policy if exists "public read quiz events dashboard" on public.quiz_events;
 drop policy if exists "public insert quiz answers" on public.quiz_answers;
+drop policy if exists "public update quiz answers" on public.quiz_answers;
 drop policy if exists "public read quiz answers dashboard" on public.quiz_answers;
 
 create policy "public insert quiz sessions"
