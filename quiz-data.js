@@ -2557,7 +2557,7 @@ window.QUIZ_DATA = {
             "id": "4e745823-7eb5-4384-9d51-d5f8683c8d5f",
             "component": "title",
             "type": "title",
-            "title": "Você pode perder de 9KG a 15KG em 3 semanas com os Chás ideais!",
+            "title": "Você pode perder de 9KG a 15KG em 3 semanas com a Receita da Banana Bariátrica!",
             "subtitle": "",
             "alignment": "center"
           },
