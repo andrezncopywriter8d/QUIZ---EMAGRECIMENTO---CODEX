@@ -1,0 +1,13 @@
+{
+  "name": "teste-do-0",
+  "version": "1.0.0",
+  "description": "Projeto vanilla HTML/CSS/JS que reconstrói o funil XQuiz/InLead da referência autorizada.",
+  "main": "build-quiz-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
