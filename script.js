@@ -218,7 +218,7 @@ function renderElement(element, step) {
       <article class="testimony">
         <header class="testimony-header">
           ${element.image ? `<img src="${element.image}" alt="" loading="eager" decoding="async" />` : ""}
-          <div><strong>${escapeHtml(element.name || "Claudia")}</strong><span>${escapeHtml(element.location || "Porto Alegre, RS")}</span></div>
+          <div><strong>${escapeHtml(element.name || "Fernanda")}</strong><span>${escapeHtml(element.location || "Porto Alegre, RS")}</span></div>
         </header>
         <p>${replaceVars(element.text)}</p>
         <div class="stars" aria-label="5 estrelas">★★★★★</div>
