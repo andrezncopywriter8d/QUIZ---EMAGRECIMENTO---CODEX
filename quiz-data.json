@@ -1465,7 +1465,7 @@
         "subtitle": "O Mounjaro Bariátrico age enquanto você dorme, queimando gordura de forma acelerada!",
         "description": "",
         "question": "Te entendemos!",
-        "image": "assets/imageye___-_imgi_2_bc100f87-9306-45b3-81ea-cef7957df0f3.webp",
+        "image": "assets/banana-como-funciona.webp",
         "options": [],
         "button": {
           "text": "Continuar",
@@ -1497,7 +1497,7 @@
             "id": "f927dbbb-31f7-47d9-9cba-923ea6a26e58",
             "component": "image",
             "type": "image",
-            "src": "assets/imageye___-_imgi_2_bc100f87-9306-45b3-81ea-cef7957df0f3.webp",
+            "src": "assets/banana-como-funciona.webp",
             "size": "w-full"
           },
           {
