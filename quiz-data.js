@@ -1281,23 +1281,13 @@ window.QUIZ_DATA = {
             "type": "carousel",
             "items": [
               {
-                "title": "Karolina",
-                "image": "assets/imageye___-_imgi_2_cfc14994-04db-409e-84b1-6b39d0d27ef2.webp",
+                "title": "Renata",
+                "image": "assets/banana-depoimento-renata.webp",
                 "text": ""
               },
               {
-                "title": "Jessica",
-                "image": "assets/imageye___-_imgi_3_040a6a81-05cd-4af6-913b-43579233cc72.webp",
-                "text": ""
-              },
-              {
-                "title": "Paulinha",
-                "image": "assets/imageye___-_imgi_4_76844025-70d9-4703-818a-f5ee4f80cf4f.webp",
-                "text": ""
-              },
-              {
-                "title": "Juliana",
-                "image": "assets/xquiz_6923721e-4832-4265-847b-51c4565bde08.webp",
+                "title": "Angela",
+                "image": "assets/banana-depoimento-angela.webp",
                 "text": ""
               }
             ]
@@ -3335,4 +3325,4 @@ window.QUIZ_DATA = {
       }
     ]
   }
-};
+}
