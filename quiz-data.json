@@ -1705,10 +1705,10 @@
         "type": "testimonial",
         "progress": 45,
         "title": "🔥 Histórias Reais de Transformação! 🔥",
-        "subtitle": "📍 Depoimento: Claudia – Porto Alegre, RS",
+        "subtitle": "📍 Depoimento: Fernanda – Porto Alegre, RS",
         "description": "",
         "question": "🔥 Histórias Reais de Transformação! 🔥",
-        "image": "assets/imageye___-_imgi_2_7dc2201d-5c87-4ec9-91d8-ebad686785aa.webp",
+        "image": "assets/banana-prova-social-fernanda.webp",
         "options": [],
         "button": {
           "text": "Continuar",
@@ -1728,22 +1728,24 @@
             "component": "title",
             "type": "title",
             "title": "🔥 Histórias Reais de Transformação! 🔥",
-            "subtitle": "📍 Depoimento: Claudia – Porto Alegre, RS",
+            "subtitle": "📍 Depoimento: Fernanda – Porto Alegre, RS",
             "alignment": "center"
           },
           {
             "id": "cf4a75f0-5ca4-44a7-b2b6-488acf46fbed",
             "component": "image",
             "type": "image",
-            "src": "assets/imageye___-_imgi_2_7dc2201d-5c87-4ec9-91d8-ebad686785aa.webp",
+            "src": "assets/banana-prova-social-fernanda.webp",
             "size": "w-full"
           },
           {
             "id": "c132347c-9c80-4aff-8ac4-4459b2d8b6c0",
             "component": "testimony",
             "type": "testimony",
-            "text": "Eu já tinha tentado de tudo para emagrecer, mas nada funcionava. Depois de incluir o Mounjaro Bariátrico na minha rotina, perdi 12kg sem mudar nada na minha alimentação! O mais incrível é que minha fome e ansiedade diminuíram naturalmente!",
-            "image": "assets/imageye___-_imgi_3_c5893ece-3f9c-4dde-83d4-d9829a210dd2.webp"
+            "text": "Eu já tinha tentado de tudo para emagrecer, mas nada funcionava. Depois de incluir A Receita da Banana Bariátrica na minha rotina, perdi 12kg sem mudar nada na minha alimentação! O mais incrível é que minha fome e ansiedade diminuíram naturalmente!",
+            "image": "assets/banana-profile-fernanda.webp",
+            "name": "Fernanda",
+            "location": "Porto Alegre, RS"
           },
           {
             "id": "4b568dbc-5c47-48a6-955f-612ee0d4d9bd",

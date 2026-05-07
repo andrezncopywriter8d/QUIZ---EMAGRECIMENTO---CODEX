@@ -217,8 +217,8 @@ function renderElement(element, step) {
     node.innerHTML = `
       <article class="testimony">
         <header class="testimony-header">
-          ${element.image ? `<img src="${element.image}" alt="" />` : ""}
-          <div><strong>Claudia</strong><span>Porto Alegre, RS</span></div>
+          ${element.image ? `<img src="${element.image}" alt="" loading="eager" decoding="async" />` : ""}
+          <div><strong>${escapeHtml(element.name || "Claudia")}</strong><span>${escapeHtml(element.location || "Porto Alegre, RS")}</span></div>
         </header>
         <p>${replaceVars(element.text)}</p>
         <div class="stars" aria-label="5 estrelas">★★★★★</div>
@@ -598,6 +598,14 @@ function replaceVars(text) {
   return String(text || "")
     .replaceAll("{{nome}}", values.nome || values.nome_ || "Você")
     .replaceAll("{{doenças}}", values.doen_as || values.doencas || "sua condição");
+}
+
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;");
 }
 
 function redirectTo(url) {
