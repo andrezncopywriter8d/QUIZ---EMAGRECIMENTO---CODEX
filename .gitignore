@@ -3,5 +3,7 @@ qa-*.png
 .env
 .env.*
 node_modules/
+dist/
+.wrangler/
 .DS_Store
 Thumbs.db
