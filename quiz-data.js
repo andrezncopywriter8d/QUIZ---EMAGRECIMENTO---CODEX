@@ -372,10 +372,10 @@ window.QUIZ_DATA = {
         "slug": "4q653t6d",
         "type": "single_choice",
         "progress": 35,
-        "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+        "title": "Vamos criar um Plano Personalizado de Emagrecimento com a Receita da Banana Bariátrica, focado nas suas necessidades.",
         "subtitle": "Selecione sua idade abaixo:",
         "description": "",
-        "question": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+        "question": "Vamos criar um Plano Personalizado de Emagrecimento com a Receita da Banana Bariátrica, focado nas suas necessidades.",
         "image": "",
         "options": [
           {
@@ -433,7 +433,7 @@ window.QUIZ_DATA = {
             "id": "9532041f-1002-446b-b220-7604087a8d8c",
             "component": "title",
             "type": "title",
-            "title": "Vamos criar um Plano Personalizado de Emagrecimento com o Mounjaro Bariátrico, focado nas suas necessidades.",
+            "title": "Vamos criar um Plano Personalizado de Emagrecimento com a Receita da Banana Bariátrica, focado nas suas necessidades.",
             "subtitle": "Selecione sua idade abaixo:",
             "alignment": "center"
           },
