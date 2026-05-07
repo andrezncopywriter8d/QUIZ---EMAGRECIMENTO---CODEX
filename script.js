@@ -1,4 +1,4 @@
-const STORAGE_KEY = "mounjaro_bariatrico_answers";
+const STORAGE_KEY = "banana_bariatrica_answers";
 
 const state = {
   data: null,
@@ -87,7 +87,7 @@ function renderElement(element, step) {
   if (element.type === "header") {
     node.className = "header";
     const logo = state.data.quiz.theme.logo || element.logo;
-    node.innerHTML = `<img src="${logo}" alt="Mounjaro Bariátrico" style="width:${Math.min(element.logoSize || 70, 70)}px" />`;
+    node.innerHTML = `<img src="${logo}" alt="Banana Bariátrica" style="width:${Math.min(element.logoSize || 70, 70)}px" />`;
     return node;
   }
 
@@ -110,7 +110,7 @@ function renderElement(element, step) {
   if (element.type === "text") {
     if (!element.text || element.text === "[object Object]") return document.createDocumentFragment();
     if (element.text.includes("FAÇA A AVALIAÇÃO")) node.classList.add("intro-red-copy");
-    if (element.text.includes("ESSE CHÁ")) node.classList.add("intro-warning-copy");
+    if (element.text.includes("ESSA RECEITA SECRETA")) node.classList.add("intro-warning-copy");
     node.innerHTML = `<div class="text-copy">${replaceVars(element.text)}</div>`;
     return node;
   }

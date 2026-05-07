@@ -1,6 +1,6 @@
 {
   "quiz": {
-    "name": "Mounjaro Bariátrico",
+    "name": "Banana Bariátrica",
     "sourceUrl": "https://suareceitinha.receitinhaplenanatural.online/",
     "theme": {
       "primaryColor": "#16a34a",
@@ -81,10 +81,10 @@
         "slug": "6k4g1l4z",
         "type": "single_choice",
         "progress": 10,
-        "title": "Escolha seu principal objetivo com o Mounjaro!",
+        "title": "Escolha seu principal objetivo com a Receita da Banana Bariátrica!",
         "subtitle": "Vamos personalizar a sua receita",
         "description": "",
-        "question": "Escolha seu principal objetivo com o Mounjaro!",
+        "question": "Escolha seu principal objetivo com a Receita da Banana Bariátrica!",
         "image": "",
         "options": [
           {
@@ -150,7 +150,7 @@
             "id": "e9a5e634-c2f9-4337-8da4-82b9d1265a48",
             "component": "title",
             "type": "title",
-            "title": "Escolha seu principal objetivo com o Mounjaro!",
+            "title": "Escolha seu principal objetivo com a Receita da Banana Bariátrica!",
             "subtitle": "Vamos personalizar a sua receita",
             "alignment": "center"
           },
@@ -492,7 +492,7 @@
         "type": "single_choice",
         "progress": 40,
         "title": "Quantos quilos deseja perder?",
-        "subtitle": "O Mounjaro Bariátrico pode eliminar gordura de forma acelerada.",
+        "subtitle": "A Receita da Banana Bariátrica pode acelerar sua queima de gordura de forma natural.",
         "description": "",
         "question": "Quantos quilos deseja perder?",
         "image": "",
@@ -553,7 +553,7 @@
             "component": "title",
             "type": "title",
             "title": "Quantos quilos deseja perder?",
-            "subtitle": "O Mounjaro Bariátrico pode eliminar gordura de forma acelerada.",
+            "subtitle": "A Receita da Banana Bariátrica pode acelerar sua queima de gordura de forma natural.",
             "alignment": "center"
           },
           {
@@ -1244,7 +1244,7 @@
         "type": "testimonial",
         "progress": 96,
         "title": "Suas respostas são parecidas com as delas...",
-        "subtitle": "Isso significa que você também pode se beneficiar do nosso Mounjaro Bariátrico , assim como milhares de mulheres que já transformaram suas vidas.",
+        "subtitle": "Isso significa que você também pode se beneficiar da Receita da Banana Bariátrica, assim como milhares de mulheres que já transformaram suas vidas.",
         "description": "",
         "question": "Suas respostas são parecidas com as delas...",
         "image": "",
@@ -1272,7 +1272,7 @@
             "component": "title",
             "type": "title",
             "title": "Suas respostas são parecidas com as delas...",
-            "subtitle": "Isso significa que você também pode se beneficiar do nosso Mounjaro Bariátrico , assim como milhares de mulheres que já transformaram suas vidas.",
+            "subtitle": "Isso significa que você também pode se beneficiar da Receita da Banana Bariátrica, assim como milhares de mulheres que já transformaram suas vidas.",
             "alignment": "center"
           },
           {
@@ -1462,7 +1462,7 @@
         "type": "content",
         "progress": 73,
         "title": "Te entendemos!",
-        "subtitle": "O Mounjaro Bariátrico age enquanto você dorme, queimando gordura de forma acelerada!",
+        "subtitle": "A Receita da Banana Bariátrica age enquanto você dorme, ajudando seu corpo a queimar gordura de forma acelerada!",
         "description": "",
         "question": "Te entendemos!",
         "image": "assets/banana-como-funciona.webp",
@@ -1490,7 +1490,7 @@
             "component": "title",
             "type": "title",
             "title": "Te entendemos!",
-            "subtitle": "O Mounjaro Bariátrico age enquanto você dorme, queimando gordura de forma acelerada!",
+            "subtitle": "A Receita da Banana Bariátrica age enquanto você dorme, ajudando seu corpo a queimar gordura de forma acelerada!",
             "alignment": "center"
           },
           {

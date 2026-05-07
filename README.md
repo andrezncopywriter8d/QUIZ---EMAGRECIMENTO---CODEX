@@ -1,4 +1,4 @@
-# Reconstrucao do Quiz Mounjaro Bariatrico
+# Reconstrucao do Quiz Banana Bariatrica
 
 Projeto vanilla HTML/CSS/JS que reconstrói o funil XQuiz/InLead da referência autorizada.
 

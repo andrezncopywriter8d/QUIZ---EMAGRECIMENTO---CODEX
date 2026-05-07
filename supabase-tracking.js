@@ -1,7 +1,7 @@
 (function () {
   const CONFIG = window.QUIZ_SUPABASE;
-  const SESSION_KEY = "mounjaro_bariatrico_session_id";
-  const STEP_START_KEY = "mounjaro_bariatrico_step_started_at";
+  const SESSION_KEY = "banana_bariatrica_session_id";
+  const STEP_START_KEY = "banana_bariatrica_step_started_at";
 
   if (!CONFIG || !window.supabase) {
     window.quizTracker = createNoopTracker();
