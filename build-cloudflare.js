@@ -15,6 +15,7 @@ const files = [
   "dashboard.html",
   "dashboard.css",
   "dashboard.js",
+  "sw.js",
   "README.md"
 ];
 

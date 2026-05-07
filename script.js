@@ -8,6 +8,9 @@ const state = {
   isTransitioning: false,
   carouselTimer: null,
   lastTrackedStepId: "",
+  preloadedAssets: new Set(),
+  preloadQueue: [],
+  isPreloading: false,
 };
 
 const app = document.getElementById("quiz-app");
@@ -25,7 +28,9 @@ async function init() {
   const matchingStep = state.data.quiz.steps.find((step) => step.id === requestedStep || step.slug === requestedStep);
   state.currentStepId = matchingStep ? matchingStep.id : state.data.quiz.steps[0].id;
   applyTheme(state.data.quiz.theme);
+  warmInitialAssets();
   window.quizTracker?.init?.();
+  registerServiceWorker();
   render();
 }
 
@@ -58,6 +63,8 @@ function render() {
 
   app.innerHTML = "";
   app.className = `quiz-shell step-${step.type}`;
+  preloadStepAssets(step, true);
+  preloadNextSteps(step, 5);
 
   step.elements.forEach((element) => {
     app.appendChild(renderElement(element, step));
@@ -109,7 +116,7 @@ function renderElement(element, step) {
   }
 
   if (element.type === "image") {
-    node.innerHTML = `<img class="main-image" src="${element.src}" alt="" loading="lazy" />`;
+    node.innerHTML = `<img class="main-image" src="${element.src}" alt="" loading="eager" decoding="async" fetchpriority="high" />`;
     return node;
   }
 
@@ -198,8 +205,8 @@ function renderElement(element, step) {
         <div class="audio-label">Áudio</div>
         <button class="audio-play" type="button" aria-label="Reproduzir áudio">▶</button>
         <div class="audio-wave" aria-hidden="true">${Array.from({ length: 34 }, (_, index) => `<span style="height:${8 + Math.abs(Math.sin(index * 0.85)) * 21}px"></span>`).join("")}<b></b></div>
-        ${element.image ? `<img src="${element.image}" alt="Nutri Amanda" />` : ""}
-        <audio preload="metadata" src="assets/nutri-amanda.mp3"></audio>
+        ${element.image ? `<img src="${element.image}" alt="Nutri Amanda" loading="eager" decoding="async" fetchpriority="high" />` : ""}
+        <audio preload="auto" src="assets/nutri-amanda.mp3"></audio>
       </div>
     `;
     setupAudioPlayer(node.querySelector(".xquiz-audio"));
@@ -227,7 +234,7 @@ function renderElement(element, step) {
     element.items.forEach((item) => {
       const card = document.createElement("article");
       card.className = "carousel-card";
-      card.innerHTML = `${item.image ? `<img src="${item.image}" alt="${item.title}" loading="eager" />` : ""}`;
+      card.innerHTML = `${item.image ? `<img src="${item.image}" alt="${item.title}" loading="eager" decoding="async" fetchpriority="high" />` : ""}`;
       track.appendChild(card);
     });
     const prev = document.createElement("button");
@@ -344,7 +351,7 @@ function renderOption(option, group, step) {
   if (group.model === "text-emoji") button.classList.add("option-emoji");
   if (group.multiple) button.classList.add("option-multiple");
   button.innerHTML = `
-    ${shouldShowImage ? `<img src="${option.image}" alt="" loading="lazy" />` : ""}
+    ${shouldShowImage ? `<img src="${option.image}" alt="" loading="eager" decoding="async" fetchpriority="high" />` : ""}
     ${shouldShowEmoji ? `<span class="emoji">${option.emoji}</span>` : ""}
     ${group.model === "image-only" ? "" : `<span>${replaceVars(option.label)}</span>`}
   `;
@@ -362,6 +369,10 @@ function renderOption(option, group, step) {
     if (step.button.visible) return;
     window.setTimeout(() => goTo(option.nextStep || step.nextStep), 180);
   });
+  if (option.nextStep) {
+    button.addEventListener("pointerenter", () => preloadNextSteps(getStep(option.nextStep), 3), { passive: true });
+    button.addEventListener("touchstart", () => preloadNextSteps(getStep(option.nextStep), 3), { passive: true });
+  }
   return button;
 }
 
@@ -490,7 +501,7 @@ function renderMeasure(element, step) {
 function renderBodyMap(element) {
   const wrap = document.createElement("div");
   wrap.className = "body-map";
-  wrap.innerHTML = `<img src="${element.image}" alt="Pessoa" loading="lazy" />`;
+  wrap.innerHTML = `<img src="${element.image}" alt="Pessoa" loading="eager" decoding="async" fetchpriority="high" />`;
   const positions = [
     ["Costas", "marker-left top-35"],
     ["Braços", "marker-left top-25"],
@@ -559,6 +570,9 @@ function goNext(step) {
 
 function goTo(id) {
   if (!id || state.isTransitioning) return;
+  const targetStep = getStep(id);
+  preloadStepAssets(targetStep, true);
+  preloadNextSteps(targetStep, 4);
   window.quizTracker?.trackStepLeave?.(getStep(), id);
   state.isTransitioning = true;
   app.classList.add("is-leaving");
@@ -596,6 +610,124 @@ function redirectTo(url) {
   window.setTimeout(() => {
     window.location.href = target.toString();
   }, 350);
+}
+
+function warmInitialAssets() {
+  const firstStep = getStep(state.currentStepId) || state.data.quiz.steps[0];
+  enqueueAsset(state.data.quiz.theme.logo, "image", true);
+  enqueueAsset(state.data.quiz.theme.favicon, "image", false);
+  preloadStepAssets(firstStep, true);
+  preloadNextSteps(firstStep, 6);
+}
+
+function preloadNextSteps(step, depth = 4) {
+  if (!step || depth <= 0) return;
+  const visited = new Set([step.id]);
+  let frontier = getNextStepIds(step);
+
+  for (let level = 0; level < depth && frontier.length; level += 1) {
+    const nextFrontier = [];
+    frontier.forEach((stepId) => {
+      if (!stepId || visited.has(stepId)) return;
+      visited.add(stepId);
+      const nextStep = getStep(stepId);
+      if (!nextStep) return;
+      preloadStepAssets(nextStep, level < 2);
+      nextFrontier.push(...getNextStepIds(nextStep));
+    });
+    frontier = nextFrontier;
+  }
+}
+
+function getNextStepIds(step) {
+  const ids = new Set();
+  if (step.nextStep) ids.add(step.nextStep);
+  (step.options || []).forEach((option) => {
+    if (option.nextStep) ids.add(option.nextStep);
+  });
+  (step.elements || []).forEach((element) => {
+    (element.options || []).forEach((option) => {
+      if (option.nextStep) ids.add(option.nextStep);
+    });
+  });
+  return [...ids];
+}
+
+function preloadStepAssets(step, urgent = false) {
+  if (!step) return;
+  collectStepAssets(step).forEach((asset) => enqueueAsset(asset.url, asset.type, urgent));
+}
+
+function collectStepAssets(step) {
+  const assets = [];
+  const pushImage = (url) => {
+    if (url) assets.push({ url, type: "image" });
+  };
+  const pushAudio = (url) => {
+    if (url) assets.push({ url, type: "audio" });
+  };
+
+  pushImage(step.image);
+  (step.options || []).forEach((option) => pushImage(option.image));
+  (step.elements || []).forEach((element) => {
+    pushImage(element.logo);
+    pushImage(element.src);
+    pushImage(element.image);
+    if (element.type === "audio") pushAudio(element.src || "assets/nutri-amanda.mp3");
+    (element.items || []).forEach((item) => pushImage(item.image));
+    (element.options || []).forEach((option) => pushImage(option.image));
+  });
+
+  return assets;
+}
+
+function enqueueAsset(url, type = "image", urgent = false) {
+  if (!url || !url.startsWith("assets/") || state.preloadedAssets.has(url)) return;
+  state.preloadedAssets.add(url);
+  const item = { url, type };
+  urgent ? state.preloadQueue.unshift(item) : state.preloadQueue.push(item);
+  schedulePreload();
+}
+
+function schedulePreload() {
+  if (state.isPreloading) return;
+  state.isPreloading = true;
+  const run = () => drainPreloadQueue();
+  if ("requestIdleCallback" in window) {
+    window.requestIdleCallback(run, { timeout: 900 });
+  } else {
+    window.setTimeout(run, 80);
+  }
+}
+
+function drainPreloadQueue() {
+  const batch = state.preloadQueue.splice(0, 4);
+  Promise.allSettled(batch.map(loadAsset)).finally(() => {
+    state.isPreloading = false;
+    if (state.preloadQueue.length) schedulePreload();
+  });
+}
+
+function loadAsset(asset) {
+  if (asset.type === "audio") {
+    return fetch(asset.url, { cache: "force-cache" }).catch(() => {});
+  }
+
+  return new Promise((resolve) => {
+    const image = new Image();
+    image.decoding = "async";
+    image.onload = resolve;
+    image.onerror = resolve;
+    image.src = asset.url;
+    if (image.decode) image.decode().then(resolve).catch(resolve);
+  });
+}
+
+function registerServiceWorker() {
+  if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch(() => {});
+  });
 }
 
 window.restartQuiz = function restartQuiz() {

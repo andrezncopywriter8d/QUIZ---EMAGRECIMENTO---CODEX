@@ -1282,7 +1282,7 @@ window.QUIZ_DATA = {
             "items": [
               {
                 "title": "Karolina",
-                "image": "assets/imageye___-_imgi_2_cfc14994-04db-409e-84b1-6b39d0d27ef2.png",
+                "image": "assets/imageye___-_imgi_2_cfc14994-04db-409e-84b1-6b39d0d27ef2.webp",
                 "text": ""
               },
               {
