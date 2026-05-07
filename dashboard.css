@@ -77,7 +77,39 @@ nav a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 16px;
   margin-bottom: 18px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: end;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.topbar-actions label {
+  display: grid;
+  gap: 4px;
+}
+
+.topbar-actions label span {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.topbar-actions input {
+  height: 42px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  font-size: 13px;
+  padding: 0 10px;
 }
 
 .topbar p,
@@ -111,6 +143,25 @@ button {
   font: inherit;
   font-weight: 700;
   padding: 11px 16px;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.65;
+}
+
+button.ghost {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--text);
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+button.danger:hover {
+  background: #b91c1c;
 }
 
 .metrics {
@@ -259,5 +310,19 @@ td {
 
   .metrics {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .topbar {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .topbar-actions {
+    justify-content: stretch;
+  }
+
+  .topbar-actions label,
+  .topbar-actions button {
+    flex: 1 1 150px;
   }
 }

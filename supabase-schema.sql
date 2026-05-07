@@ -61,6 +61,19 @@ as $$
   where id = session_uuid;
 $$;
 
+create or replace function public.reset_quiz_analytics()
+returns void
+language plpgsql
+security definer
+set search_path = public
+as $$
+begin
+  delete from public.quiz_answers;
+  delete from public.quiz_events;
+  delete from public.quiz_sessions;
+end;
+$$;
+
 alter table public.quiz_sessions enable row level security;
 alter table public.quiz_events enable row level security;
 alter table public.quiz_answers enable row level security;
@@ -120,3 +133,4 @@ grant select, insert, update on public.quiz_sessions to anon;
 grant select, insert on public.quiz_events to anon;
 grant select, insert, update on public.quiz_answers to anon;
 grant execute on function public.increment_answer_count(uuid) to anon;
+grant execute on function public.reset_quiz_analytics() to anon;

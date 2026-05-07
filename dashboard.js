@@ -2,10 +2,18 @@ const CONFIG = window.QUIZ_SUPABASE;
 const dashboardState = {
   client: null,
   steps: window.QUIZ_DATA?.quiz?.steps?.filter((step) => step.type !== "redirect") || [],
+  filters: {
+    startDate: "",
+    endDate: "",
+  },
 };
 
 document.addEventListener("DOMContentLoaded", initDashboard);
 document.getElementById("refreshBtn")?.addEventListener("click", loadDashboard);
+document.getElementById("clearFilterBtn")?.addEventListener("click", clearDateFilters);
+document.getElementById("resetDataBtn")?.addEventListener("click", resetAnalyticsData);
+document.getElementById("startDateFilter")?.addEventListener("change", updateDateFilters);
+document.getElementById("endDateFilter")?.addEventListener("change", updateDateFilters);
 
 function initDashboard() {
   dashboardState.client = window.supabase.createClient(CONFIG.url, CONFIG.publishableKey);
@@ -13,10 +21,27 @@ function initDashboard() {
 }
 
 async function loadDashboard() {
+  const range = getDateRange();
+  let sessionsQuery = dashboardState.client.from("quiz_sessions").select("*").order("started_at", { ascending: false }).limit(500);
+  let eventsQuery = dashboardState.client.from("quiz_events").select("*").order("created_at", { ascending: false }).limit(5000);
+  let answersQuery = dashboardState.client.from("quiz_answers").select("*").order("answered_at", { ascending: false }).limit(5000);
+
+  if (range.from) {
+    sessionsQuery = sessionsQuery.gte("started_at", range.from);
+    eventsQuery = eventsQuery.gte("created_at", range.from);
+    answersQuery = answersQuery.gte("answered_at", range.from);
+  }
+
+  if (range.to) {
+    sessionsQuery = sessionsQuery.lte("started_at", range.to);
+    eventsQuery = eventsQuery.lte("created_at", range.to);
+    answersQuery = answersQuery.lte("answered_at", range.to);
+  }
+
   const [sessionsResult, eventsResult, answersResult] = await Promise.all([
-    dashboardState.client.from("quiz_sessions").select("*").order("started_at", { ascending: false }).limit(500),
-    dashboardState.client.from("quiz_events").select("*").order("created_at", { ascending: false }).limit(5000),
-    dashboardState.client.from("quiz_answers").select("*").order("answered_at", { ascending: false }).limit(5000),
+    sessionsQuery,
+    eventsQuery,
+    answersQuery,
   ]);
 
   if (sessionsResult.error || eventsResult.error || answersResult.error) {
@@ -33,6 +58,58 @@ async function loadDashboard() {
   renderFunnel(events, answers);
   renderSessions(sessions);
   document.getElementById("lastUpdated").textContent = new Date().toLocaleString("pt-BR");
+}
+
+function updateDateFilters() {
+  dashboardState.filters.startDate = document.getElementById("startDateFilter")?.value || "";
+  dashboardState.filters.endDate = document.getElementById("endDateFilter")?.value || "";
+  loadDashboard();
+}
+
+function clearDateFilters() {
+  dashboardState.filters.startDate = "";
+  dashboardState.filters.endDate = "";
+  document.getElementById("startDateFilter").value = "";
+  document.getElementById("endDateFilter").value = "";
+  loadDashboard();
+}
+
+async function resetAnalyticsData() {
+  const confirmation = prompt('Isso vai apagar todos os dados do painel. Digite "ZERAR" para confirmar.');
+  if (confirmation !== "ZERAR") return;
+
+  const button = document.getElementById("resetDataBtn");
+  button.disabled = true;
+  button.textContent = "Zerando...";
+
+  const { error } = await dashboardState.client.rpc("reset_quiz_analytics");
+
+  button.disabled = false;
+  button.textContent = "Zerar dados";
+
+  if (error) {
+    console.error(error);
+    alert("Não foi possível zerar os dados. Execute novamente o supabase-schema.sql no Supabase para criar a função reset_quiz_analytics.");
+    return;
+  }
+
+  await loadDashboard();
+  alert("Dados zerados com sucesso.");
+}
+
+function getDateRange() {
+  const { startDate, endDate } = dashboardState.filters;
+  const range = { from: "", to: "" };
+
+  if (startDate) {
+    range.from = new Date(`${startDate}T00:00:00`).toISOString();
+  }
+
+  if (endDate) {
+    range.to = new Date(`${endDate}T23:59:59.999`).toISOString();
+  }
+
+  return range;
 }
 
 function renderMetrics(sessions, events, answers) {
