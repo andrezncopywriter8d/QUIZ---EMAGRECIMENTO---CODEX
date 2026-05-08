@@ -153,10 +153,12 @@ h1 {
 }
 
 .step-intro .block-image .main-image {
-  width: min(114%, calc(100vw - 16px));
+  position: relative;
+  left: 50%;
+  width: min(124%, calc(100vw - 8px));
   max-width: none;
-  margin-inline: auto;
-  transform: translateX(-6%);
+  margin-inline: 0;
+  transform: translateX(-50%);
 }
 
 .primary-button {

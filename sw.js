@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-emagrecimento-v18";
+const CACHE_NAME = "quiz-emagrecimento-v19";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
