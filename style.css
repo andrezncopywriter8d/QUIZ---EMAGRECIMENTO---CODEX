@@ -148,6 +148,17 @@ h1 {
   border-radius: 8px;
 }
 
+.step-intro .block-image {
+  overflow: visible;
+}
+
+.step-intro .block-image .main-image {
+  width: min(106%, calc(100vw - 24px));
+  max-width: none;
+  margin-inline: auto;
+  transform: translateX(-3%);
+}
+
 .primary-button {
   width: 100%;
   min-height: 64px;
