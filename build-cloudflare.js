@@ -46,4 +46,8 @@ for (const file of files) {
 
 copyRecursive(path.join(root, "assets"), path.join(dist, "assets"));
 
+const dashboardAlias = path.join(dist, "dashboard", "index.html");
+fs.mkdirSync(path.dirname(dashboardAlias), { recursive: true });
+fs.copyFileSync(path.join(dist, "dashboard.html"), dashboardAlias);
+
 console.log("Cloudflare build ready in dist/");

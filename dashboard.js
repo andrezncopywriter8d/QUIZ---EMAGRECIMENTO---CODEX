@@ -56,6 +56,7 @@ async function loadDashboard() {
 
   renderMetrics(sessions, events, answers);
   renderFunnel(events, answers);
+  renderContacts(sessions, answers);
   renderSessions(sessions);
   document.getElementById("lastUpdated").textContent = new Date().toLocaleString("pt-BR");
 }
@@ -168,6 +169,76 @@ function renderSessions(sessions) {
   }).join("");
 
   document.getElementById("sessionRows").innerHTML = rows || `<tr><td colspan="5">Sem sessões ainda.</td></tr>`;
+}
+
+function renderContacts(sessions, answers) {
+  const sessionsById = new Map(sessions.map((session) => [session.id, session]));
+  const contactsBySession = new Map();
+
+  answers.forEach((answer) => {
+    const value = normalizeAnswerValue(answer.value);
+    const current = contactsBySession.get(answer.session_id) || {
+      session: sessionsById.get(answer.session_id),
+      name: "",
+      phone: "",
+      email: "",
+      answeredAt: answer.answered_at,
+    };
+
+    current.name ||= pickValue(value, ["nome", "name", "nome_"]);
+    current.phone ||= pickValue(value, ["whatsapp25", "whatsapp", "telefone", "phone", "celular"]);
+    current.email ||= pickValue(value, ["e_mail25", "email", "e_mail", "mail"]);
+    current.answeredAt = maxDateString(current.answeredAt, answer.answered_at);
+    contactsBySession.set(answer.session_id, current);
+  });
+
+  const rows = [...contactsBySession.values()]
+    .filter((contact) => contact.name || contact.phone || contact.email)
+    .sort((a, b) => new Date(b.answeredAt || b.session?.started_at || 0) - new Date(a.answeredAt || a.session?.started_at || 0))
+    .slice(0, 200)
+    .map((contact) => {
+      const session = contact.session || {};
+      const date = contact.answeredAt || session.started_at;
+      return `
+        <tr>
+          <td>${date ? new Date(date).toLocaleString("pt-BR") : "-"}</td>
+          <td><strong>${escapeHtml(contact.name || "-")}</strong></td>
+          <td>${escapeHtml(contact.phone || "-")}</td>
+          <td>${escapeHtml(contact.email || "-")}</td>
+          <td><div class="step-name">${escapeHtml(session.current_step_title || session.exit_step_title || "-")}</div></td>
+          <td>${escapeHtml(session.utm?.utm_source || session.utm?.src || "-")}</td>
+        </tr>
+      `;
+    }).join("");
+
+  document.getElementById("contactRows").innerHTML = rows || `<tr><td colspan="6">Nenhum dado de contato coletado ainda.</td></tr>`;
+}
+
+function normalizeAnswerValue(value) {
+  if (!value) return {};
+  if (typeof value === "string") {
+    try {
+      return JSON.parse(value);
+    } catch {
+      return { value };
+    }
+  }
+  return value;
+}
+
+function pickValue(source, keys) {
+  if (!source || typeof source !== "object") return "";
+  for (const key of keys) {
+    const value = source[key];
+    if (value !== undefined && value !== null && String(value).trim()) return String(value).trim();
+  }
+  return "";
+}
+
+function maxDateString(a, b) {
+  if (!a) return b;
+  if (!b) return a;
+  return new Date(a) > new Date(b) ? a : b;
 }
 
 function countBy(items, key) {

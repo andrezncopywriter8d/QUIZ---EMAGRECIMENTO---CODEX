@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
     <link rel="stylesheet" href="https://fonts.bunny.net/css?family=poppins:300,400,500,700" />
-    <link rel="stylesheet" href="dashboard.css?v=filters-reset-1" />
+    <link rel="stylesheet" href="dashboard.css?v=contacts-1" />
   </head>
   <body>
     <aside class="sidebar">
@@ -15,6 +15,7 @@
       <nav>
         <a href="#overview" class="active">Visão geral</a>
         <a href="#funnel">Funil</a>
+        <a href="#contacts">Dados coletados</a>
         <a href="#sessions">Leads</a>
       </nav>
     </aside>
@@ -73,6 +74,30 @@
         </div>
       </section>
 
+      <section id="contacts" class="card">
+        <div class="section-title">
+          <div>
+            <p>Dados coletados</p>
+            <h2>Nome, WhatsApp e e-mail</h2>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Data</th>
+                <th>Nome</th>
+                <th>WhatsApp</th>
+                <th>E-mail</th>
+                <th>Última etapa</th>
+                <th>UTM Source</th>
+              </tr>
+            </thead>
+            <tbody id="contactRows"></tbody>
+          </table>
+        </div>
+      </section>
+
       <section id="sessions" class="card">
         <div class="section-title">
           <div>
@@ -99,7 +124,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="supabase-config.js?v=supabase-1"></script>
-    <script src="quiz-data.js?v=supabase-1"></script>
-    <script src="dashboard.js?v=filters-reset-1"></script>
+    <script src="quiz-data.js?v=banana-full-copy-2"></script>
+    <script src="dashboard.js?v=contacts-1"></script>
   </body>
 </html>
