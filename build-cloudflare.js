@@ -12,6 +12,7 @@ const files = [
   "quiz-data.js",
   "supabase-config.js",
   "supabase-tracking.js",
+  "utmify-tracking.js",
   "dashboard.html",
   "dashboard.css",
   "dashboard.js",

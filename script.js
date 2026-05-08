@@ -73,6 +73,7 @@ function render() {
   if (state.lastTrackedStepId !== step.id) {
     state.lastTrackedStepId = step.id;
     window.quizTracker?.trackStepView?.(step, getStepIndex(step.id));
+    window.quizUtmify?.trackStepView?.(step, getStepIndex(step.id));
   }
 
   if (step.type === "loading") {
@@ -126,7 +127,16 @@ function renderElement(element, step) {
     button.className = `primary-button ${element.animation === "pulse" ? "pulse" : ""}`;
     button.type = "button";
     button.textContent = replaceVars(element.text);
-    button.addEventListener("click", () => goNext(step));
+    if (isCheckoutButton(element, step)) {
+      button.classList.add("go-to-checkout");
+      button.dataset.utmifyEvent = "InitiateCheckout";
+    }
+    button.addEventListener("click", () => {
+      if (isCheckoutButton(element, step)) {
+        window.quizUtmify?.trackInitiateCheckout?.(step, getRedirectUrlForStep(step));
+      }
+      goNext(step);
+    });
     node.appendChild(button);
     return node;
   }
@@ -562,6 +572,7 @@ function saveAnswer(stepId, value) {
   state.answers[stepId] = value;
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state.answers));
   window.quizTracker?.trackAnswer?.(getStep(stepId), value);
+  window.quizUtmify?.trackAnswer?.(getStep(stepId), value);
 }
 
 function goNext(step) {
@@ -590,6 +601,17 @@ function getStepIndex(stepId) {
   return state.data.quiz.steps.findIndex((step) => step.id === stepId);
 }
 
+function isCheckoutButton(element, step) {
+  const text = String(element?.text || step?.button?.text || "").trim().toUpperCase();
+  const nextStep = getStep(step?.nextStep);
+  return step?.type === "offer" && nextStep?.type === "redirect" && text.includes("PEGAR MEU PLANO");
+}
+
+function getRedirectUrlForStep(step) {
+  const nextStep = getStep(step?.nextStep);
+  return nextStep?.redirectUrl || state.data.quiz.settings.redirectUrl || "";
+}
+
 function replaceVars(text) {
   const values = Object.values(state.answers).reduce((acc, entry) => {
     if (entry && typeof entry === "object" && !Array.isArray(entry)) Object.assign(acc, entry);
@@ -615,6 +637,7 @@ function redirectTo(url) {
     if (!target.searchParams.has(key)) target.searchParams.set(key, value);
   });
   window.quizTracker?.trackConversion?.(target.toString());
+  window.quizUtmify?.trackConversion?.(getStep(), target.toString());
   window.setTimeout(() => {
     window.location.href = target.toString();
   }, 350);
