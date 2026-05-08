@@ -1,4 +1,4 @@
-const CACHE_NAME = "quiz-emagrecimento-v14";
+const CACHE_NAME = "quiz-emagrecimento-v15";
 const STATIC_ASSETS = [
   "./",
   "./index.html",
@@ -7,6 +7,8 @@ const STATIC_ASSETS = [
   "./quiz-data.js",
   "./supabase-config.js",
   "./supabase-tracking.js",
+  "./assets/favicon.ico",
+  "./assets/favicon.webp",
   "./dashboard.html",
   "./dashboard.css",
   "./dashboard.js"
