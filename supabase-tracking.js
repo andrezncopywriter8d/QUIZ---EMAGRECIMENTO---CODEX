@@ -20,11 +20,41 @@
   function getUtms() {
     const params = new URLSearchParams(window.location.search);
     const utms = {};
+    const marketingKeys = new Set([
+      "src",
+      "sck",
+      "fbclid",
+      "gclid",
+      "ttclid",
+      "msclkid",
+      "xcod",
+      "subid",
+      "sub_id",
+      "campaign",
+      "campaign_id",
+      "adset",
+      "adset_id",
+      "adgroup",
+      "adgroup_id",
+      "ad",
+      "ad_id",
+      "ad_name",
+      "creative",
+      "creative_id",
+      "criativo",
+      "placement",
+      "site_source_name",
+    ]);
     params.forEach((value, key) => {
-      if (key.startsWith("utm_") || ["src", "sck", "fbclid", "gclid"].includes(key)) {
+      if (key.startsWith("utm_") || marketingKeys.has(key)) {
         utms[key] = value;
       }
     });
+    utms.source = utms.utm_source || utms.src || "";
+    utms.medium = utms.utm_medium || "";
+    utms.campaign = utms.utm_campaign || utms.campaign || "";
+    utms.adset = utms.utm_term || utms.adset || utms.adset_id || utms.adgroup || utms.adgroup_id || "";
+    utms.creative = utms.utm_content || utms.creative || utms.creative_id || utms.ad_name || utms.ad_id || utms.ad || utms.criativo || "";
     return utms;
   }
 

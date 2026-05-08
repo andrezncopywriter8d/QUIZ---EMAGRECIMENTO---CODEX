@@ -7,7 +7,7 @@
     <meta name="robots" content="noindex, nofollow" />
     <link rel="preconnect" href="https://fonts.bunny.net" crossorigin />
     <link rel="stylesheet" href="https://fonts.bunny.net/css?family=poppins:300,400,500,700" />
-    <link rel="stylesheet" href="dashboard.css?v=contacts-1" />
+    <link rel="stylesheet" href="dashboard.css?v=utm-creative-1" />
   </head>
   <body>
     <aside class="sidebar">
@@ -15,6 +15,7 @@
       <nav>
         <a href="#overview" class="active">Visão geral</a>
         <a href="#funnel">Funil</a>
+        <a href="#creatives">Criativos / UTMs</a>
         <a href="#contacts">Dados coletados</a>
         <a href="#sessions">Leads</a>
       </nav>
@@ -47,6 +48,33 @@
         <article><span>Conversão</span><strong id="conversionMetric">0%</strong><small>Chegaram ao checkout</small></article>
         <article><span>Abandono médio</span><strong id="dropMetric">0%</strong><small>Saída antes do final</small></article>
         <article><span>Eventos</span><strong id="eventsMetric">0</strong><small>Cliques e views</small></article>
+      </section>
+
+      <section id="creatives" class="card">
+        <div class="section-title">
+          <div>
+            <p>Atribuicao</p>
+            <h2>Desempenho por criativo</h2>
+          </div>
+          <span>Baseado nas UTMs da URL</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Criativo</th>
+                <th>Campanha</th>
+                <th>Conjunto</th>
+                <th>Fonte</th>
+                <th>Visitantes</th>
+                <th>Leads</th>
+                <th>Checkouts</th>
+                <th>Conv.</th>
+              </tr>
+            </thead>
+            <tbody id="creativeRows"></tbody>
+          </table>
+        </div>
       </section>
 
       <section id="funnel" class="card">
@@ -125,6 +153,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="supabase-config.js?v=supabase-1"></script>
     <script src="quiz-data.js?v=banana-full-copy-2"></script>
-    <script src="dashboard.js?v=contacts-1"></script>
+    <script src="dashboard.js?v=utm-creative-1"></script>
   </body>
 </html>

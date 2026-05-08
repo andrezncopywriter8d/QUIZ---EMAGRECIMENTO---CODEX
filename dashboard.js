@@ -55,6 +55,7 @@ async function loadDashboard() {
   const answers = answersResult.data || [];
 
   renderMetrics(sessions, events, answers);
+  renderCreativeBreakdown(sessions, answers);
   renderFunnel(events, answers);
   renderContacts(sessions, answers);
   renderSessions(sessions);
@@ -115,8 +116,7 @@ function getDateRange() {
 
 function renderMetrics(sessions, events, answers) {
   const visitors = sessions.length;
-  const contactSlugs = new Set(["474y033h", "4j0l233u"]);
-  const leadSessionIds = new Set(answers.filter((answer) => contactSlugs.has(answer.step_slug)).map((answer) => answer.session_id));
+  const leadSessionIds = getLeadSessionIds(answers);
   const converted = sessions.filter((session) => session.completed_at).length;
   const conversion = visitors ? Math.round((converted / visitors) * 1000) / 10 : 0;
   const drop = visitors ? Math.round(((visitors - converted) / visitors) * 1000) / 10 : 0;
@@ -126,6 +126,48 @@ function renderMetrics(sessions, events, answers) {
   setText("conversionMetric", `${conversion}%`);
   setText("dropMetric", `${drop}%`);
   setText("eventsMetric", events.length);
+}
+
+function renderCreativeBreakdown(sessions, answers) {
+  const leadSessionIds = getLeadSessionIds(answers);
+  const groups = new Map();
+
+  sessions.forEach((session) => {
+    const attr = getAttribution(session.utm || {});
+    const key = [attr.creative, attr.campaign, attr.adset, attr.source].join("|");
+    const current = groups.get(key) || {
+      ...attr,
+      visitors: 0,
+      leads: 0,
+      checkouts: 0,
+    };
+
+    current.visitors += 1;
+    if (leadSessionIds.has(session.id)) current.leads += 1;
+    if (session.completed_at) current.checkouts += 1;
+    groups.set(key, current);
+  });
+
+  const rows = [...groups.values()]
+    .sort((a, b) => b.visitors - a.visitors || b.checkouts - a.checkouts)
+    .slice(0, 80)
+    .map((item) => {
+      const conversion = item.visitors ? Math.round((item.checkouts / item.visitors) * 1000) / 10 : 0;
+      return `
+        <tr>
+          <td><span class="utm-pill">${escapeHtml(item.creative || "Sem criativo")}</span></td>
+          <td>${escapeHtml(item.campaign || "-")}</td>
+          <td>${escapeHtml(item.adset || "-")}</td>
+          <td>${escapeHtml(item.source || "-")}</td>
+          <td>${item.visitors}</td>
+          <td>${item.leads}</td>
+          <td>${item.checkouts}</td>
+          <td><strong>${conversion}%</strong></td>
+        </tr>
+      `;
+    }).join("");
+
+  document.getElementById("creativeRows").innerHTML = rows || `<tr><td colspan="8">Sem UTMs ainda. Use utm_content, creative_id, ad_id ou ad_name nos links dos criativos.</td></tr>`;
 }
 
 function renderFunnel(events, answers) {
@@ -163,7 +205,7 @@ function renderSessions(sessions) {
         <td><div class="step-name">${escapeHtml(session.current_step_title || session.exit_step_title || "-")}</div></td>
         <td>${session.answers_count || 0}</td>
         <td>${status}</td>
-        <td>${escapeHtml(session.utm?.utm_source || session.utm?.src || "-")}</td>
+        <td>${escapeHtml(getAttribution(session.utm || {}).source || "-")}</td>
       </tr>
     `;
   }).join("");
@@ -206,7 +248,7 @@ function renderContacts(sessions, answers) {
           <td>${escapeHtml(contact.phone || "-")}</td>
           <td>${escapeHtml(contact.email || "-")}</td>
           <td><div class="step-name">${escapeHtml(session.current_step_title || session.exit_step_title || "-")}</div></td>
-          <td>${escapeHtml(session.utm?.utm_source || session.utm?.src || "-")}</td>
+          <td>${escapeHtml(getAttribution(session.utm || {}).source || "-")}</td>
         </tr>
       `;
     }).join("");
@@ -239,6 +281,29 @@ function maxDateString(a, b) {
   if (!a) return b;
   if (!b) return a;
   return new Date(a) > new Date(b) ? a : b;
+}
+
+function getLeadSessionIds(answers) {
+  const contactSlugs = new Set(["474y033h", "4j0l233u"]);
+  return new Set(answers.filter((answer) => contactSlugs.has(answer.step_slug)).map((answer) => answer.session_id));
+}
+
+function getAttribution(utm) {
+  return {
+    source: pickUtm(utm, ["source", "utm_source", "src"]),
+    medium: pickUtm(utm, ["medium", "utm_medium"]),
+    campaign: pickUtm(utm, ["campaign", "utm_campaign", "campaign_id"]),
+    adset: pickUtm(utm, ["adset", "utm_term", "adset_id", "adgroup", "adgroup_id"]),
+    creative: pickUtm(utm, ["creative", "utm_content", "creative_id", "ad_name", "ad_id", "ad", "criativo", "xcod"]),
+  };
+}
+
+function pickUtm(utm, keys) {
+  for (const key of keys) {
+    const value = utm?.[key];
+    if (value !== undefined && value !== null && String(value).trim()) return String(value).trim();
+  }
+  return "";
 }
 
 function countBy(items, key) {

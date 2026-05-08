@@ -297,6 +297,19 @@ td {
   color: #991b1b;
 }
 
+.utm-pill {
+  display: inline-flex;
+  max-width: 280px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: #f0fdf4;
+  color: #166534;
+  font-weight: 700;
+  padding: 5px 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 @media (max-width: 900px) {
   .sidebar {
     position: static;
