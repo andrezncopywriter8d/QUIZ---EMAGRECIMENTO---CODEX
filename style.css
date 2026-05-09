@@ -729,6 +729,11 @@ h1 {
   font-size: 30px;
 }
 
+.vturb-video-box {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .audio-card {
   position: relative;
   display: flex;

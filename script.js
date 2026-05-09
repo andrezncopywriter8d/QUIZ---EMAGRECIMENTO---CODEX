@@ -205,7 +205,12 @@ function renderElement(element, step) {
   }
 
   if (element.type === "video") {
-    node.innerHTML = `<div class="media-placeholder video-box"><span>▶</span></div>`;
+    node.innerHTML = `
+      <div class="vturb-video-box">
+        <vturb-smartplayer id="vid-69fe75c3f70f7722cd1d508d" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
+      </div>
+    `;
+    loadVturbPlayer();
     return node;
   }
 
@@ -566,6 +571,16 @@ function setupAudioPlayer(card) {
     audio.currentTime = 0;
   });
   window.setTimeout(playAudio, 650);
+}
+
+function loadVturbPlayer() {
+  const src = "https://scripts.converteai.net/1f44e052-5570-40b6-b17e-13fa7cf55f04/players/69fe75c3f70f7722cd1d508d/v4/player.js";
+  if (document.querySelector(`script[src="${src}"]`)) return;
+  const script = document.createElement("script");
+  script.type = "text/javascript";
+  script.src = src;
+  script.async = true;
+  document.head.appendChild(script);
 }
 
 function saveAnswer(stepId, value) {
