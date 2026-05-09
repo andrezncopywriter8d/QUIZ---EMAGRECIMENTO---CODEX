@@ -205,12 +205,13 @@ function renderElement(element, step) {
   }
 
   if (element.type === "video") {
+    const player = getVturbPlayer(step);
     node.innerHTML = `
       <div class="vturb-video-box">
-        <vturb-smartplayer id="vid-69fe75c3f70f7722cd1d508d" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
+        <vturb-smartplayer id="${player.id}" style="display: block; margin: 0 auto; width: 100%; max-width: 400px;"></vturb-smartplayer>
       </div>
     `;
-    loadVturbPlayer();
+    loadVturbPlayer(player.script);
     return node;
   }
 
@@ -573,8 +574,21 @@ function setupAudioPlayer(card) {
   window.setTimeout(playAudio, 650);
 }
 
-function loadVturbPlayer() {
-  const src = "https://scripts.converteai.net/1f44e052-5570-40b6-b17e-13fa7cf55f04/players/69fe75c3f70f7722cd1d508d/v4/player.js";
+function getVturbPlayer(step) {
+  const isFinalOffer = String(step?.button?.text || "").toUpperCase().includes("PEGAR MEU PLANO");
+  if (isFinalOffer) {
+    return {
+      id: "vid-69fe759ca754dbfd9a0b0ab8",
+      script: "https://scripts.converteai.net/1f44e052-5570-40b6-b17e-13fa7cf55f04/players/69fe759ca754dbfd9a0b0ab8/v4/player.js",
+    };
+  }
+  return {
+    id: "vid-69fe75c3f70f7722cd1d508d",
+    script: "https://scripts.converteai.net/1f44e052-5570-40b6-b17e-13fa7cf55f04/players/69fe75c3f70f7722cd1d508d/v4/player.js",
+  };
+}
+
+function loadVturbPlayer(src) {
   if (document.querySelector(`script[src="${src}"]`)) return;
   const script = document.createElement("script");
   script.type = "text/javascript";
