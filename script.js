@@ -7,6 +7,7 @@ const state = {
   selected: new Set(),
   isTransitioning: false,
   carouselTimer: null,
+  pitchTimer: null,
   lastTrackedStepId: "",
   preloadedAssets: new Set(),
   preloadQueue: [],
@@ -53,6 +54,10 @@ function render() {
   if (state.carouselTimer) {
     window.clearInterval(state.carouselTimer);
     state.carouselTimer = null;
+  }
+  if (state.pitchTimer) {
+    window.clearTimeout(state.pitchTimer);
+    state.pitchTimer = null;
   }
   app.classList.remove("is-leaving");
 
@@ -128,8 +133,10 @@ function renderElement(element, step) {
     button.type = "button";
     button.textContent = replaceVars(element.text);
     if (isCheckoutButton(element, step)) {
-      button.classList.add("go-to-checkout");
+      button.classList.add("go-to-checkout", "delayed-checkout-button");
       button.dataset.utmifyEvent = "InitiateCheckout";
+      button.hidden = true;
+      revealDelayedCheckout(button);
     }
     button.addEventListener("click", () => {
       if (isCheckoutButton(element, step)) {
@@ -595,6 +602,14 @@ function loadVturbPlayer(src) {
   script.src = src;
   script.async = true;
   document.head.appendChild(script);
+}
+
+function revealDelayedCheckout(button) {
+  state.pitchTimer = window.setTimeout(() => {
+    if (!button.isConnected) return;
+    button.hidden = false;
+    window.requestAnimationFrame(() => button.classList.add("is-visible"));
+  }, 90000);
 }
 
 function saveAnswer(stepId, value) {

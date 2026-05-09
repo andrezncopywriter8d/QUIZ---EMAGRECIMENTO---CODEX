@@ -190,6 +190,29 @@ h1 {
   box-shadow: 0 8px 14px rgba(22, 163, 74, 0.1);
 }
 
+.delayed-checkout-button {
+  opacity: 0;
+  transform: translateY(18px) scale(0.98);
+}
+
+.delayed-checkout-button.is-visible {
+  animation: checkoutReveal 0.55s ease forwards;
+}
+
+@keyframes checkoutReveal {
+  0% {
+    opacity: 0;
+    transform: translateY(18px) scale(0.98);
+    filter: blur(4px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
 .pulse {
   animation: pulse 1.3s infinite;
 }
