@@ -16,7 +16,7 @@
       "showProgressBar": true,
       "autoAdvance": true,
       "saveAnswers": true,
-      "redirectUrl": "https://checkout.payt.com.br/c9cdb9f714f98780624f1cfb20acb574",
+      "redirectUrl": "https://go.perfectpay.com.br/PPU38CQBU5O",
       "fallbackRedirectUrl": "https://lastlink.com/p/C618C2DAB/checkout-payment/",
       "mobileFirst": true,
       "preserveUtm": true
@@ -3318,7 +3318,7 @@
           "visible": false
         },
         "nextStep": "",
-        "redirectUrl": "https://checkout.payt.com.br/c9cdb9f714f98780624f1cfb20acb574",
+        "redirectUrl": "https://go.perfectpay.com.br/PPU38CQBU5O",
         "elements": [
           {
             "type": "redirect"
