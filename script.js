@@ -31,7 +31,7 @@ async function init() {
   applyTheme(state.data.quiz.theme);
   warmInitialAssets();
   window.quizTracker?.init?.();
-  registerServiceWorker();
+  clearServiceWorkerCaches();
   render();
 }
 
@@ -798,11 +798,17 @@ function loadAsset(asset) {
   });
 }
 
-function registerServiceWorker() {
+function clearServiceWorkerCaches() {
+  if ("caches" in window) {
+    caches.keys()
+      .then((keys) => Promise.all(keys.map((key) => caches.delete(key))))
+      .catch(() => {});
+  }
+
   if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch(() => {});
-  });
+  navigator.serviceWorker.getRegistrations()
+    .then((registrations) => Promise.all(registrations.map((registration) => registration.unregister())))
+    .catch(() => {});
 }
 
 window.restartQuiz = function restartQuiz() {
